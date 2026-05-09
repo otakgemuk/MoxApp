@@ -148,7 +148,7 @@ function AdminContent() {
 
   // GitHub push settings
   const [ghToken, setGhToken] = useState(() => localStorage.getItem("gh_token") || "");
-  const [ghRepo, setGhRepo] = useState(() => localStorage.getItem("gh_repo") || "otakgemuk/prop-firm-api");
+  const [ghRepo, setGhRepo] = useState(() => localStorage.getItem("gh_repo") || "otakgemuk/MoxApp");
   const [ghBranch, setGhBranch] = useState(() => localStorage.getItem("gh_branch") || "main");
   const [showSettings, setShowSettings] = useState(false);
   const [pushing, setPushing] = useState(false);
@@ -375,7 +375,7 @@ function AdminContent() {
           <ol className="list-inside list-decimal space-y-1 text-sm text-emerald-200/80">
             <li>Edit plans below (add, edit, or delete)</li>
             <li><strong className="text-emerald-300">Option A (fastest):</strong> Click <strong className="text-blue-300">🚀 Push to GitHub</strong> — deploys automatically in ~2 min</li>
-            <li><strong className="text-emerald-300">Option B:</strong> Click ⬇ Download → paste into <a href="https://github.com/otakgemuk/prop-firm-api/blob/main/data/plans.json" target="_blank" rel="noopener" className="text-brand-400 underline">data/plans.json on GitHub</a> → commit</li>
+            <li><strong className="text-emerald-300">Option B:</strong> Click ⬇ Download → paste into <a href="https://github.com/otakgemuk/MoxApp/blob/main/data/plans.json" target="_blank" rel="noopener" className="text-brand-400 underline">data/plans.json on GitHub</a> → commit</li>
           </ol>
           <p className="mt-2 text-xs text-emerald-200/60">⚙️ For push: set a GitHub PAT token with <code>repo</code> scope in settings (⚙️ button above)</p>
         </div>

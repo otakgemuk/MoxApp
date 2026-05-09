@@ -2,7 +2,7 @@
 
 A comparison engine for futures prop firms. Built with React, Tailwind, and TanStack Table.
 
-**Live site:** https://otakgemuk.github.io/prop-firm-api/
+**Live site:** https://otakgemuk.github.io/MoxApp/
 
 ## How It Works
 
@@ -62,7 +62,7 @@ Delete all plan entries with that `firm_id`.
 ## Architecture
 
 ```
-prop-firm-api/
+MoxApp/
 ├── data/
 │   ├── plans.json           ← Single source of truth
 │   ├── firms.json

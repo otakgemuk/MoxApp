@@ -10,7 +10,7 @@ There are **3 ways** to update pricing data in Funded Futures Network:
 
 ### Steps:
 
-1. **Open admin page**: `https://otakgemuk.github.io/prop-firm-api/admin.html`
+1. **Open admin page**: `https://otakgemuk.github.io/MoxApp/admin.html`
    - Password: `propfirm2026`
 
 2. **Edit data**:
@@ -25,7 +25,7 @@ There are **3 ways** to update pricing data in Funded Futures Network:
 
 4. **Update GitHub** (using the helper script):
    ```bash
-   cd prop-firm-api
+   cd MoxApp
    ./admin-update.sh ~/Downloads/plans.json "Update Funded Futures Network pricing"
    ```
 
