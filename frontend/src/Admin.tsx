@@ -16,6 +16,7 @@
 //   access control, use server-side auth (e.g. GitHub OAuth).
 
 import { useState, useEffect, useCallback } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import type { PlanRow } from "./hooks/usePlans";
 
 // ── Password gate ──────────────────────────────────────────
@@ -556,5 +557,12 @@ function Field({ label, value, onChange, type = "text", placeholder }: {
 }
 
 export default function Admin() {
-  return <LoginGate><AdminContent /></LoginGate>;
+  return (
+    <>
+      <LoginGate>
+        <AdminContent />
+      </LoginGate>
+      <Analytics />
+    </>
+  );
 }
