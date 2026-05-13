@@ -2,7 +2,7 @@
   {
     "firm_slug": "apex-trader-funding",
     "code": "MIGHTYOX",
-    "discount_pct": 90
+    "discount_pct": 50
   },
   {
     "firm_slug": "take-profit-trader",
@@ -58,5 +58,10 @@
     "firm_slug": "blusky-pro",
     "code": "MOT",
     "discount_pct": 30
+  },
+  {
+    "firm_slug": "bulenox",
+    "code": "MOT",
+    "discount_pct": 75
   }
 ]
