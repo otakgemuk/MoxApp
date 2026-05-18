@@ -63,5 +63,10 @@
     "firm_slug": "bulenox",
     "code": "MOT75",
     "discount_pct": 75
+  },
+  {
+    "firm_slug": "lucid-trading",
+    "code": "MOT",
+    "discount_pct": 50
   }
 ]
