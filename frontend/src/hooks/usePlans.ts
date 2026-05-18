@@ -73,7 +73,7 @@ const SORT_KEYS: Record<string, (row: PlanRow) => number | string> = {
   drawdown_amount:   (r) => r.drawdown_amount,
   daily_loss_limit:  (r) => r.daily_loss_limit,
   profit_target:     (r) => r.profit_target,
-  eval_fee:          (r) => r.eval_fee,
+  eval_fee:          (r) => r.eval_fee * (1 - (r.active_discount_pct || 0) / 100),
   activation_fee:    (r) => r.activation_fee,
   base_cost:            (r) => r.base_cost_to_funded,
   total_cost:           (r) => r.total_cost_to_funded,
