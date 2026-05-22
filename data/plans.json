@@ -2395,7 +2395,7 @@
     "daily_loss_limit": null,
     "profit_target": 9000,
     "profit_split": null,
-    "eval_fee": 340.0,
+    "eval_fee": 138,
     "activation_fee": 149,
     "monthly_fee": 0,
     "is_one_time": 0,
@@ -2405,13 +2405,14 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "base_cost_to_funded": 489.0,
-    "total_cost_to_funded": 285.0,
+    "total_cost_to_funded": 204.2,
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
     "retail_eval_fee": 276.0,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "base_cost_to_founded": 287
   },
   {
     "firm_id": "legends_trading",
