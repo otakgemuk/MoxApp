@@ -6810,7 +6810,8 @@
     "active_discount_pct": 30,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 185.3
+    "total_cost_to_funded": 185.3,
+    "firm_id": "purdia_capital"
   },
   {
     "firm_name": "Purdia Capital",
@@ -6824,7 +6825,8 @@
     "active_discount_pct": 30,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 213.3
+    "total_cost_to_funded": 213.3,
+    "firm_id": "purdia_capital"
   },
   {
     "firm_name": "Purdia Capital",
@@ -6838,7 +6840,8 @@
     "active_discount_pct": 30,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 255.3
+    "total_cost_to_funded": 255.3,
+    "firm_id": "purdia_capital"
   },
   {
     "firm_name": "Purdia Capital",
@@ -6852,7 +6855,8 @@
     "active_discount_pct": 0,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 189
+    "total_cost_to_funded": 189,
+    "firm_id": "purdia_capital"
   },
   {
     "firm_name": "Purdia Capital",
@@ -6866,7 +6870,8 @@
     "active_discount_pct": 30,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 339.3
+    "total_cost_to_funded": 339.3,
+    "firm_id": "purdia_capital"
   },
   {
     "firm_name": "Purdia Capital",
@@ -6880,7 +6885,8 @@
     "active_discount_pct": 20,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 479.2
+    "total_cost_to_funded": 479.2,
+    "firm_id": "purdia_capital"
   },
   {
     "firm_name": "Purdia Capital",
@@ -6894,6 +6900,7 @@
     "active_discount_pct": 30,
     "affiliate_link": "https://bit.ly/oxpur",
     "affiliate_code": "MOT",
-    "total_cost_to_funded": 269.3
+    "total_cost_to_funded": 269.3,
+    "firm_id": "purdia_capital"
   }
 ]
