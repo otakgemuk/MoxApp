@@ -6942,7 +6942,8 @@
     "max_dd": 2000,
     "trading_type": "Intraday",
     "profit_target": 3000,
-    "consistency_rule": 25
+    "consistency_rule": 25,
+    "dd_type": "Intraday"
   },
   {
     "plan_id": "daytraders-150000-s2l",
@@ -6961,7 +6962,8 @@
     "max_account": 5,
     "max_dd": 1500,
     "trading_type": "Intraday",
-    "profit_target": 8500
+    "profit_target": 8500,
+    "dd_type": "Intraday"
   },
   {
     "plan_id": "daytraders-300000-s2l",
@@ -6980,6 +6982,7 @@
     "max_account": 5,
     "max_dd": 7000,
     "trading_type": "Intraday",
-    "profit_target": 15000
+    "profit_target": 15000,
+    "dd_type": "Intraday"
   }
 ]
