@@ -6941,7 +6941,8 @@
     "max_account": 5,
     "max_dd": 2000,
     "trading_type": "Intraday",
-    "profit_target": 3000
+    "profit_target": 3000,
+    "consistency_rule": 25
   },
   {
     "plan_id": "daytraders-150000-s2l",
