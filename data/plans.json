@@ -5581,10 +5581,10 @@
     "logo_url": null,
     "website_url": "https://bit.ly/oxday",
     "trustpilot": null,
-    "plan_id": "daytraders-150000-s2l-150k-edge",
+    "plan_id": "daytraders-150000-s2l-edge",
     "account_size": 150000,
-    "account_type": "S2L 150K Edge",
-    "plan_label": "S2L 150K Edge 150K",
+    "account_type": "S2L Edge",
+    "plan_label": "S2L 150K Edge",
     "drawdown_type": "eod",
     "drawdown_amount": 4500,
     "daily_loss_limit": 1750,
@@ -6958,5 +6958,44 @@
     "base_cost_to_funded": 475.3,
     "affiliate_code": "MOT",
     "affiliate_link": "https://bit.ly/oxpur"
+  },
+  {
+    "plan_id": "daytraders-50000-s2l",
+    "firm_id": "daytraders",
+    "firm_name": "DayTraders",
+    "plan_label": "S2L 50K",
+    "account_type": "S2L",
+    "account_size": 50000,
+    "eval_fee": 448.33,
+    "activation_fee": 100,
+    "active_discount_pct": 40,
+    "total_cost_to_funded": 329.0,
+    "has_discount": 1
+  },
+  {
+    "plan_id": "daytraders-150000-s2l",
+    "firm_id": "daytraders",
+    "firm_name": "DayTraders",
+    "plan_label": "S2L 150K",
+    "account_type": "S2L",
+    "account_size": 150000,
+    "eval_fee": 665.0,
+    "activation_fee": 100,
+    "active_discount_pct": 40,
+    "total_cost_to_funded": 459.0,
+    "has_discount": 1
+  },
+  {
+    "plan_id": "daytraders-300000-s2l",
+    "firm_id": "daytraders",
+    "firm_name": "DayTraders",
+    "plan_label": "S2L 300K",
+    "account_type": "S2L",
+    "account_size": 300000,
+    "eval_fee": 898.33,
+    "activation_fee": 100,
+    "active_discount_pct": 40,
+    "total_cost_to_funded": 599.0,
+    "has_discount": 1
   }
 ]
