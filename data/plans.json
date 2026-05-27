@@ -6937,7 +6937,6 @@
     "active_discount_pct": 0,
     "total_cost_to_funded": 179,
     "has_discount": 1,
-    "consistency_rule": 25,
     "min_days_to_pass": 8,
     "max_account": 5,
     "max_dd": 2000,
