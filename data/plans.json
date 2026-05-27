@@ -6938,7 +6938,8 @@
     "total_cost_to_funded": 179,
     "has_discount": 1,
     "consistency_rule": 25,
-    "min_days_to_pass": 8
+    "min_days_to_pass": 8,
+    "max_account": 5
   },
   {
     "plan_id": "daytraders-150000-s2l",
@@ -6953,7 +6954,8 @@
     "total_cost_to_funded": 319,
     "has_discount": 1,
     "consistency_rule": 25,
-    "min_days_to_pass": 8
+    "min_days_to_pass": 8,
+    "max_account": 5
   },
   {
     "plan_id": "daytraders-300000-s2l",
@@ -6968,6 +6970,7 @@
     "total_cost_to_funded": 449,
     "has_discount": 1,
     "consistency_rule": 25,
-    "min_days_to_pass": 8
+    "min_days_to_pass": 8,
+    "max_account": 5
   }
 ]
