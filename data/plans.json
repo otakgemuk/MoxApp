@@ -4704,7 +4704,10 @@
     "total_cost_to_funded": 127,
     "active_discount_pct": 50,
     "account_type": "E2L Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4730,7 +4733,10 @@
     "total_cost_to_funded": 55.4,
     "active_discount_pct": 80,
     "account_type": "E2L OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4756,7 +4762,10 @@
     "total_cost_to_funded": 288,
     "active_discount_pct": 50,
     "account_type": "E2L Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4782,7 +4791,10 @@
     "total_cost_to_funded": 144.6,
     "active_discount_pct": 80,
     "account_type": "E2L OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4808,7 +4820,10 @@
     "total_cost_to_funded": 214.6,
     "active_discount_pct": 60,
     "account_type": "Fundamental Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4834,7 +4849,10 @@
     "total_cost_to_funded": 116,
     "active_discount_pct": 80,
     "account_type": "Fundamental OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4860,7 +4878,10 @@
     "total_cost_to_funded": 280.6,
     "active_discount_pct": 60,
     "account_type": "Premium Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4886,7 +4907,10 @@
     "total_cost_to_funded": 144.6,
     "active_discount_pct": 80,
     "account_type": "Premium OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4912,7 +4936,10 @@
     "total_cost_to_funded": 308,
     "active_discount_pct": 50,
     "account_type": "E2L Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4938,7 +4965,10 @@
     "total_cost_to_funded": 180,
     "active_discount_pct": 80,
     "account_type": "E2L OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4964,7 +4994,10 @@
     "total_cost_to_funded": 438.2,
     "active_discount_pct": 60,
     "account_type": "Fundamental Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -4990,7 +5023,10 @@
     "total_cost_to_funded": 144.6,
     "active_discount_pct": 80,
     "account_type": "Fundamental OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5016,7 +5052,10 @@
     "total_cost_to_funded": 313.4,
     "active_discount_pct": 60,
     "account_type": "Premium Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5042,7 +5081,10 @@
     "total_cost_to_funded": 180,
     "active_discount_pct": 80,
     "account_type": "Premium OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5068,7 +5110,10 @@
     "total_cost_to_funded": 368,
     "active_discount_pct": 50,
     "account_type": "E2L Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5094,7 +5139,10 @@
     "total_cost_to_funded": 225,
     "active_discount_pct": 80,
     "account_type": "E2L OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5120,7 +5168,10 @@
     "total_cost_to_funded": 514.2,
     "active_discount_pct": 60,
     "account_type": "Fundamental Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5146,7 +5197,10 @@
     "total_cost_to_funded": 172.6,
     "active_discount_pct": 80,
     "account_type": "Fundamental OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5172,7 +5226,10 @@
     "total_cost_to_funded": 397,
     "active_discount_pct": 60,
     "account_type": "Premium Eval",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "phidias",
@@ -5198,7 +5255,10 @@
     "total_cost_to_funded": 224.6,
     "active_discount_pct": 80,
     "account_type": "Premium OTP",
-    "max_funded_accounts": 5
+    "max_funded_accounts": 5,
+    "min_trading_days": 3,
+    "consistency_eval": 0,
+    "consistency_funded": 30
   },
   {
     "firm_id": "daytraders",
@@ -6785,7 +6845,10 @@
     "total_cost_to_funded": 185.3,
     "base_cost_to_funded": 185.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "firm_name": "Purdia Capital",
@@ -6808,7 +6871,10 @@
     "total_cost_to_funded": 213.3,
     "base_cost_to_funded": 213.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "firm_name": "Purdia Capital",
@@ -6831,7 +6897,10 @@
     "total_cost_to_funded": 255.3,
     "base_cost_to_funded": 255.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "firm_name": "Purdia Capital",
@@ -6854,7 +6923,10 @@
     "total_cost_to_funded": 339.3,
     "base_cost_to_funded": 339.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "firm_name": "Purdia Capital",
@@ -6877,7 +6949,10 @@
     "total_cost_to_funded": 139.3,
     "base_cost_to_funded": 139.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "firm_name": "Purdia Capital",
@@ -6900,7 +6975,10 @@
     "total_cost_to_funded": 244.3,
     "base_cost_to_funded": 244.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "firm_name": "Purdia Capital",
@@ -6923,7 +7001,10 @@
     "total_cost_to_funded": 475.3,
     "base_cost_to_funded": 475.3,
     "affiliate_code": "MOT",
-    "affiliate_link": "https://bit.ly/oxpur"
+    "affiliate_link": "https://bit.ly/oxpur",
+    "min_trading_days": 5,
+    "consistency_eval": 0,
+    "consistency_funded": 0
   },
   {
     "plan_id": "daytraders-50000-s2l",
