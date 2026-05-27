@@ -4723,7 +4723,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 88,
+    "base_cost_to_funded": 127,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4752,7 +4758,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 277,
+    "base_cost_to_funded": 55.4,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4781,7 +4793,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 278,
+    "base_cost_to_funded": 288,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4810,7 +4828,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 723,
+    "base_cost_to_funded": 144.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4839,7 +4863,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 164,
+    "base_cost_to_funded": 214.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4868,7 +4898,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 580,
+    "base_cost_to_funded": 116,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4897,7 +4933,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 329,
+    "base_cost_to_funded": 280.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4926,7 +4968,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 723,
+    "base_cost_to_funded": 144.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4955,7 +5003,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 318,
+    "base_cost_to_funded": 308,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -4984,7 +5038,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 900,
+    "base_cost_to_funded": 180,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5013,7 +5073,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 723,
+    "base_cost_to_funded": 438.2,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5042,7 +5108,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 723,
+    "base_cost_to_funded": 144.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5071,7 +5143,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 411,
+    "base_cost_to_funded": 313.4,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5100,7 +5178,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 900,
+    "base_cost_to_funded": 180,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5129,7 +5213,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 398,
+    "base_cost_to_funded": 368,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5158,7 +5248,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 1125,
+    "base_cost_to_funded": 225,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5187,7 +5283,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 863,
+    "base_cost_to_funded": 514.2,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5216,7 +5318,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 863,
+    "base_cost_to_funded": 172.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5245,7 +5353,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 570,
+    "base_cost_to_funded": 397,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "phidias",
@@ -5274,7 +5388,13 @@
     "max_funded_accounts": 5,
     "min_trading_days": 3,
     "consistency_eval": 0,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 1123,
+    "base_cost_to_funded": 224.6,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "daytraders",
@@ -6865,7 +6985,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 79,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "firm_name": "Purdia Capital",
@@ -6892,7 +7021,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 119,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "firm_name": "Purdia Capital",
@@ -6919,7 +7057,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 179,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "firm_name": "Purdia Capital",
@@ -6946,7 +7093,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 299,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "firm_name": "Purdia Capital",
@@ -6973,7 +7129,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 199,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "firm_name": "Purdia Capital",
@@ -7000,7 +7165,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 349,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "firm_name": "Purdia Capital",
@@ -7027,7 +7201,16 @@
     "min_trading_days": 5,
     "consistency_eval": 0,
     "consistency_funded": 0,
-    "max_funded_accounts": 3
+    "max_funded_accounts": 3,
+    "price_verified": 1,
+    "price_status": "ok",
+    "has_discount": 1,
+    "retail_eval_fee": 679,
+    "max_funded_status": "specified",
+    "firm_slug": "purdia-capital",
+    "website_url": "https://bit.ly/oxpur",
+    "logo_url": null,
+    "trustpilot": null
   },
   {
     "plan_id": "daytraders-50000-s2l",
