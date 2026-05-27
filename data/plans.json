@@ -430,8 +430,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 468,
     "total_cost_to_funded": 153.9,
     "active_discount_pct": 90,
@@ -439,7 +439,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 349,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 1000,
+    "max_contracts": 4
   },
   {
     "firm_id": "apex_trader_fund",
@@ -464,8 +466,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 338,
     "total_cost_to_funded": 113.9,
     "active_discount_pct": 90,
@@ -473,7 +475,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 249,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 1000,
+    "max_contracts": 4
   },
   {
     "firm_id": "apex_trader_fund",
@@ -498,8 +502,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 528,
     "total_cost_to_funded": 168.9,
     "active_discount_pct": 90,
@@ -507,7 +511,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 399,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 2000,
+    "max_contracts": 6
   },
   {
     "firm_id": "apex_trader_fund",
@@ -532,8 +538,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 398,
     "total_cost_to_funded": 128.9,
     "active_discount_pct": 90,
@@ -541,7 +547,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 299,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 2000,
+    "max_contracts": 6
   },
   {
     "firm_id": "apex_trader_fund",
@@ -566,8 +574,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 748,
     "total_cost_to_funded": 208.9,
     "active_discount_pct": 90,
@@ -575,7 +583,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 599,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 3000,
+    "max_contracts": 8
   },
   {
     "firm_id": "apex_trader_fund",
@@ -600,8 +610,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 578,
     "total_cost_to_funded": 173.9,
     "active_discount_pct": 90,
@@ -609,7 +619,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 449,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 3000,
+    "max_contracts": 8
   },
   {
     "firm_id": "apex_trader_fund",
@@ -634,8 +646,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 1068,
     "total_cost_to_funded": 258.9,
     "active_discount_pct": 90,
@@ -643,7 +655,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 899,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 4000,
+    "max_contracts": 12
   },
   {
     "firm_id": "apex_trader_fund",
@@ -668,8 +682,8 @@
     "payout_frequency": "biweekly",
     "max_funded_accounts": 20,
     "min_trading_days": 5,
-    "consistency_eval": null,
-    "consistency_funded": 50,
+    "consistency_eval": 0,
+    "consistency_funded": 0,
     "base_cost_to_funded": 848,
     "total_cost_to_funded": 218.9,
     "active_discount_pct": 90,
@@ -677,7 +691,9 @@
     "max_funded_status": "specified",
     "retail_eval_fee": 699,
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "max_dd": 4000,
+    "max_contracts": 12
   },
   {
     "firm_id": "bulenox",
