@@ -6935,7 +6935,7 @@
     "eval_fee": 329,
     "activation_fee": 0,
     "active_discount_pct": 0,
-    "total_cost_to_funded": 329,
+    "total_cost_to_funded": 179,
     "has_discount": 1
   },
   {
@@ -6948,7 +6948,7 @@
     "eval_fee": 469,
     "activation_fee": 0,
     "active_discount_pct": 0,
-    "total_cost_to_funded": 469,
+    "total_cost_to_funded": 319,
     "has_discount": 1
   },
   {
@@ -6961,7 +6961,7 @@
     "eval_fee": 599,
     "activation_fee": 0,
     "active_discount_pct": 0,
-    "total_cost_to_funded": 599,
+    "total_cost_to_funded": 449,
     "has_discount": 1
   }
 ]
