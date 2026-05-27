@@ -6940,7 +6940,8 @@
     "min_days_to_pass": 8,
     "max_account": 5,
     "max_dd": 2000,
-    "trading_type": "Intraday"
+    "trading_type": "Intraday",
+    "profit_target": 3000
   },
   {
     "plan_id": "daytraders-150000-s2l",
