@@ -29,7 +29,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 79,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -63,7 +62,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 139,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -97,7 +95,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 79,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -131,7 +128,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 149,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -165,7 +161,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 119,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -199,7 +194,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 279,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -233,7 +227,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 159,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -267,7 +260,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 239,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -301,7 +293,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 239,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -335,7 +326,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 419,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -369,7 +359,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 239,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -403,7 +392,6 @@
     "active_discount_pct": 25,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 329,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -437,7 +425,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 390,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
@@ -473,7 +460,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 199,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
@@ -509,7 +495,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 450,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
@@ -545,7 +530,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 249,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
@@ -581,7 +565,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 590,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
@@ -617,7 +600,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 399,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
@@ -653,7 +635,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 1090,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
@@ -689,7 +670,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 599,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
@@ -725,7 +705,6 @@
     "active_discount_pct": 89,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 145,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -759,7 +738,6 @@
     "active_discount_pct": 75,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 175,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -793,7 +771,6 @@
     "active_discount_pct": 89,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 175,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -827,7 +804,6 @@
     "active_discount_pct": 75,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 205,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -861,7 +837,6 @@
     "active_discount_pct": 89,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 215,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -895,7 +870,6 @@
     "active_discount_pct": 75,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 255,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -929,7 +903,6 @@
     "active_discount_pct": 89,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 375,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -963,7 +936,6 @@
     "active_discount_pct": 75,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 375,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -997,7 +969,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 110,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1031,7 +1002,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 150,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1065,7 +1035,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 260,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1099,7 +1068,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 390,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1133,7 +1101,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 99,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1167,7 +1134,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 165,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1201,7 +1167,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 599,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1235,7 +1200,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 295,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1269,7 +1233,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 449,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1303,7 +1266,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 205,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1337,7 +1299,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 365,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1371,7 +1332,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 649,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1405,7 +1365,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 355,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1439,7 +1398,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 75,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1473,7 +1431,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 295,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1507,7 +1464,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 515,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -1541,7 +1497,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 165,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1575,7 +1530,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 155,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1609,7 +1563,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 135,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1643,7 +1596,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 125,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1677,7 +1629,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 185,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1711,7 +1662,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 175,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1745,7 +1695,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 160,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1779,7 +1728,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 150,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1813,7 +1761,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 340,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1847,7 +1794,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 330,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1881,7 +1827,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 315,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1915,7 +1860,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 305,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1949,7 +1893,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 395,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -1983,7 +1926,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 380,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2017,7 +1959,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 365,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2051,7 +1992,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 350,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2085,7 +2025,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 720,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2119,7 +2058,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 690,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2153,7 +2091,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 590,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2187,7 +2124,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 580,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2221,7 +2157,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 148.75,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2255,7 +2190,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 118.0,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2289,7 +2223,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 188.75,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2323,7 +2256,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 214.0,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2357,7 +2289,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 283.75,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2391,7 +2322,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 276.0,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2425,7 +2355,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 347,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2459,7 +2388,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 100,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2493,7 +2421,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 135,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2527,7 +2454,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 340,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2561,7 +2487,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 140,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2595,7 +2520,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 185,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2629,7 +2553,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 520,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2663,7 +2586,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 225,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2697,7 +2619,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 285,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2731,7 +2652,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 700,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2765,7 +2685,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 420,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2799,7 +2718,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 370,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2833,7 +2751,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 840,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -2867,7 +2784,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 65,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -2901,7 +2817,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 75,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -2935,7 +2850,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 150,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -2969,7 +2883,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 175,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3003,7 +2916,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 325,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3037,7 +2949,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 69,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3071,7 +2982,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 89,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3105,7 +3015,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 39,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3139,7 +3048,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 128,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3173,7 +3081,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 69,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3207,7 +3114,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 269,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3241,7 +3147,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 150,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3275,7 +3180,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 170,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3309,7 +3213,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 245,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3343,7 +3246,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 330,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3377,7 +3279,6 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 360,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3411,7 +3312,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 95,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3445,7 +3345,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 49,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3479,7 +3378,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 149,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3513,7 +3411,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 99,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3547,7 +3444,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 229,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3581,7 +3477,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 149,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3615,7 +3510,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 175,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3649,7 +3543,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 125,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3683,7 +3576,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 165,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3717,7 +3609,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 275,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3751,7 +3642,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 200,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3785,7 +3675,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 265,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3819,7 +3708,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 375,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3853,7 +3741,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 300,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3887,7 +3774,6 @@
     "active_discount_pct": 30,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 360,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -3921,7 +3807,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 99,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3955,7 +3840,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 345,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -3989,7 +3873,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 109,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4023,7 +3906,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 145,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4057,7 +3939,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 492,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4091,7 +3972,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 165,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4125,7 +4005,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 255,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4159,7 +4038,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 660,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4193,7 +4071,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 265,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4227,7 +4104,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 369,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4261,7 +4137,6 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "max_funded_status": "specified",
-    "retail_eval_fee": 796,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4295,7 +4170,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 369,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -4329,7 +4203,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 95,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 0,
@@ -4365,7 +4238,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 109,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20.2,
@@ -4401,7 +4273,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 153,
     "price_verified": 1,
     "price_status": "ok",
     "discount_pct": 40,
@@ -4437,7 +4308,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 125,
     "price_verified": 1,
     "price_status": "ok",
     "discount_pct": 40,
@@ -4473,7 +4343,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 153,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 0,
@@ -4509,7 +4378,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 227,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 50,
@@ -4545,7 +4413,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 157,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20,
@@ -4581,7 +4448,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 344,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 50,
@@ -4617,7 +4483,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 267,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20,
@@ -4653,7 +4518,6 @@
     "active_discount_pct": 50,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 477,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 50,
@@ -4689,7 +4553,6 @@
     "active_discount_pct": 20,
     "has_discount": 1,
     "max_funded_status": "not_specified",
-    "retail_eval_fee": 347,
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20,
@@ -4726,7 +4589,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 88,
     "base_cost_to_funded": 127,
     "max_funded_status": "specified"
   },
@@ -4761,7 +4623,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 277,
     "base_cost_to_funded": 55.4,
     "max_funded_status": "specified"
   },
@@ -4796,7 +4657,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 278,
     "base_cost_to_funded": 288,
     "max_funded_status": "specified"
   },
@@ -4831,7 +4691,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 723,
     "base_cost_to_funded": 144.6,
     "max_funded_status": "specified"
   },
@@ -4866,7 +4725,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 164,
     "base_cost_to_funded": 214.6,
     "max_funded_status": "specified"
   },
@@ -4901,7 +4759,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 580,
     "base_cost_to_funded": 116,
     "max_funded_status": "specified"
   },
@@ -4936,7 +4793,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 329,
     "base_cost_to_funded": 280.6,
     "max_funded_status": "specified"
   },
@@ -4971,7 +4827,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 723,
     "base_cost_to_funded": 144.6,
     "max_funded_status": "specified"
   },
@@ -5006,7 +4861,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 318,
     "base_cost_to_funded": 308,
     "max_funded_status": "specified"
   },
@@ -5041,7 +4895,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 900,
     "base_cost_to_funded": 180,
     "max_funded_status": "specified"
   },
@@ -5076,7 +4929,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 723,
     "base_cost_to_funded": 438.2,
     "max_funded_status": "specified"
   },
@@ -5111,7 +4963,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 723,
     "base_cost_to_funded": 144.6,
     "max_funded_status": "specified"
   },
@@ -5146,7 +4997,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 411,
     "base_cost_to_funded": 313.4,
     "max_funded_status": "specified"
   },
@@ -5181,7 +5031,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 900,
     "base_cost_to_funded": 180,
     "max_funded_status": "specified"
   },
@@ -5216,7 +5065,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 398,
     "base_cost_to_funded": 368,
     "max_funded_status": "specified"
   },
@@ -5251,7 +5099,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 1125,
     "base_cost_to_funded": 225,
     "max_funded_status": "specified"
   },
@@ -5286,7 +5133,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 863,
     "base_cost_to_funded": 514.2,
     "max_funded_status": "specified"
   },
@@ -5321,7 +5167,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 863,
     "base_cost_to_funded": 172.6,
     "max_funded_status": "specified"
   },
@@ -5356,7 +5201,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 570,
     "base_cost_to_funded": 397,
     "max_funded_status": "specified"
   },
@@ -5391,7 +5235,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 1123,
     "base_cost_to_funded": 224.6,
     "max_funded_status": "specified"
   },
@@ -5425,7 +5268,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 309,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5459,7 +5301,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 370,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5493,7 +5334,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 150,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5527,7 +5367,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 249,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5561,7 +5400,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 469,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5595,7 +5433,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 570,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5629,7 +5466,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 200,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5663,7 +5499,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 379,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5697,7 +5532,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 325,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5731,7 +5565,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 899,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5765,7 +5598,6 @@
     "active_discount_pct": 40,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 825,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5799,7 +5631,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 400,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5833,7 +5664,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 699,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5867,7 +5697,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 879,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -5901,7 +5730,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 370,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -5935,7 +5763,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 150,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -5969,7 +5796,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 249,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6003,7 +5829,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 570,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6037,7 +5862,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 329,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6071,7 +5895,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 200,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6105,7 +5928,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 379,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6139,7 +5961,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 325,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6173,7 +5994,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 825,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6207,7 +6027,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 469,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6241,7 +6060,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 400,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6275,7 +6093,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 699,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6309,7 +6126,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 599,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6343,7 +6159,6 @@
     "active_discount_pct": 60,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 879,
     "price_verified": 1,
     "price_status": "ok"
   },
@@ -6377,7 +6192,6 @@
     "active_discount_pct": 80,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 1599,
     "price_verified": 0,
     "price_status": "ok"
   },
@@ -6411,7 +6225,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 59,
     "base_cost_to_funded": 158,
     "total_cost_to_funded": 158
   },
@@ -6445,7 +6258,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 69,
     "base_cost_to_funded": 168,
     "total_cost_to_funded": 168
   },
@@ -6479,7 +6291,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 79,
     "base_cost_to_funded": 178,
     "total_cost_to_funded": 178
   },
@@ -6513,7 +6324,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 30,
     "has_discount": 1,
-    "retail_eval_fee": 150,
     "base_cost_to_funded": 150,
     "total_cost_to_funded": 105.0
   },
@@ -6547,7 +6357,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 30,
     "has_discount": 1,
-    "retail_eval_fee": 160,
     "base_cost_to_funded": 160,
     "total_cost_to_funded": 112
   },
@@ -6581,7 +6390,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 30,
     "has_discount": 1,
-    "retail_eval_fee": 220,
     "base_cost_to_funded": 220,
     "total_cost_to_funded": 154.0
   },
@@ -6615,7 +6423,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 30,
     "has_discount": 1,
-    "retail_eval_fee": 170,
     "base_cost_to_funded": 170,
     "total_cost_to_funded": 119.0
   },
@@ -6649,7 +6456,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 30,
     "has_discount": 1,
-    "retail_eval_fee": 270,
     "base_cost_to_funded": 270,
     "total_cost_to_funded": 189.0
   },
@@ -6683,7 +6489,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 30,
     "has_discount": 1,
-    "retail_eval_fee": 320,
     "base_cost_to_funded": 320,
     "total_cost_to_funded": 224.0
   },
@@ -6717,7 +6522,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 199,
     "base_cost_to_funded": 199,
     "total_cost_to_funded": 199
   },
@@ -6751,7 +6555,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 249,
     "base_cost_to_funded": 249,
     "total_cost_to_funded": 249
   },
@@ -6785,7 +6588,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 299,
     "base_cost_to_funded": 299,
     "total_cost_to_funded": 299
   },
@@ -6819,7 +6621,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 599,
     "base_cost_to_funded": 599,
     "total_cost_to_funded": 599
   },
@@ -6853,7 +6654,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 749,
     "base_cost_to_funded": 749,
     "total_cost_to_funded": 749
   },
@@ -6887,7 +6687,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 199,
     "base_cost_to_funded": 199,
     "total_cost_to_funded": 199
   },
@@ -6921,7 +6720,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 399,
     "base_cost_to_funded": 399,
     "total_cost_to_funded": 399
   },
@@ -6955,7 +6753,6 @@
     "max_funded_status": "specified",
     "active_discount_pct": 0,
     "has_discount": 0,
-    "retail_eval_fee": 699,
     "base_cost_to_funded": 699,
     "total_cost_to_funded": 699
   },
@@ -6988,7 +6785,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 79,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7024,7 +6820,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 119,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7060,7 +6855,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 179,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7096,7 +6890,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 299,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7132,7 +6925,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 199,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7168,7 +6960,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 349,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7204,7 +6995,6 @@
     "price_verified": 1,
     "price_status": "ok",
     "has_discount": 1,
-    "retail_eval_fee": 679,
     "max_funded_status": "specified",
     "firm_slug": "purdia-capital",
     "website_url": "https://bit.ly/oxpur",
@@ -7247,7 +7037,6 @@
     "price_status": "ok",
     "price_verified": 0,
     "profit_split": 80,
-    "retail_eval_fee": 329,
     "trustpilot": null,
     "website_url": "https://bit.ly/oxday"
   },
@@ -7287,7 +7076,6 @@
     "price_status": "ok",
     "price_verified": 0,
     "profit_split": 80,
-    "retail_eval_fee": 469,
     "trustpilot": null,
     "website_url": "https://bit.ly/oxday"
   },
@@ -7327,7 +7115,6 @@
     "price_status": "ok",
     "price_verified": 0,
     "profit_split": 80,
-    "retail_eval_fee": 599,
     "trustpilot": null,
     "website_url": "https://bit.ly/oxday"
   },
@@ -7361,7 +7148,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 890,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
@@ -7397,7 +7183,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 690,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
@@ -7433,7 +7218,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 1090,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
@@ -7469,7 +7253,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 790,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
@@ -7505,7 +7288,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 1390,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
@@ -7541,7 +7323,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 1090,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
@@ -7577,7 +7358,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 2290,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
@@ -7613,7 +7393,6 @@
     "active_discount_pct": 90,
     "has_discount": 1,
     "max_funded_status": "specified",
-    "retail_eval_fee": 1690,
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
