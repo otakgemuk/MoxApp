@@ -7119,7 +7119,11 @@
     "base_cost_to_funded": 125.0,
     "total_cost_to_funded": 62.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-50000-eod-qp",
@@ -7139,7 +7143,11 @@
     "base_cost_to_funded": 175.0,
     "total_cost_to_funded": 87.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-50000-static-qp",
@@ -7159,7 +7167,11 @@
     "base_cost_to_funded": 165.0,
     "total_cost_to_funded": 82.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-100000-intraday-qp",
@@ -7179,7 +7191,11 @@
     "base_cost_to_funded": 230.0,
     "total_cost_to_funded": 115.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-100000-eod-qp",
@@ -7199,7 +7215,11 @@
     "base_cost_to_funded": 275.0,
     "total_cost_to_funded": 137.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-100000-static-qp",
@@ -7219,7 +7239,11 @@
     "base_cost_to_funded": 250.0,
     "total_cost_to_funded": 125.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-150000-intraday-qp",
@@ -7239,7 +7263,11 @@
     "base_cost_to_funded": 350.0,
     "total_cost_to_funded": 175.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-150000-eod-qp",
@@ -7259,7 +7287,11 @@
     "base_cost_to_funded": 375.0,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-150000-static-qp",
@@ -7279,7 +7311,11 @@
     "base_cost_to_funded": 350.0,
     "total_cost_to_funded": 175.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 30,
+    "consistency_funded": 0,
+    "min_trading_days": 5,
+    "payout_structure": "Day 1"
   },
   {
     "plan_id": "tradeday-50000-intraday-fp",
@@ -7299,7 +7335,11 @@
     "base_cost_to_funded": 145.0,
     "total_cost_to_funded": 72.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-50000-eod-fp",
@@ -7319,7 +7359,11 @@
     "base_cost_to_funded": 195.0,
     "total_cost_to_funded": 97.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-50000-static-fp",
@@ -7339,7 +7383,11 @@
     "base_cost_to_funded": 185.0,
     "total_cost_to_funded": 92.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-100000-intraday-fp",
@@ -7359,7 +7407,11 @@
     "base_cost_to_funded": 250.0,
     "total_cost_to_funded": 125.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-100000-eod-fp",
@@ -7379,7 +7431,11 @@
     "base_cost_to_funded": 295.0,
     "total_cost_to_funded": 147.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-100000-static-fp",
@@ -7399,7 +7455,11 @@
     "base_cost_to_funded": 270.0,
     "total_cost_to_funded": 135.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-150000-intraday-fp",
@@ -7419,7 +7479,11 @@
     "base_cost_to_funded": 375.0,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-150000-eod-fp",
@@ -7439,7 +7503,11 @@
     "base_cost_to_funded": 395.0,
     "total_cost_to_funded": 197.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   },
   {
     "plan_id": "tradeday-150000-static-fp",
@@ -7459,6 +7527,10 @@
     "base_cost_to_funded": 375.0,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "consistency_eval": 45,
+    "consistency_funded": 0,
+    "min_trading_days": 3,
+    "payout_structure": "Milestone"
   }
 ]
