@@ -6865,7 +6865,7 @@
     "profit_target": 9000
   },
   {
-    "plan_id": "earn2trade-25000-eod",
+    "plan_id": "earn2trade-25000-tcp25",
     "plan_label": "TCP 25",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
@@ -6883,7 +6883,7 @@
     "price_verified": 1
   },
   {
-    "plan_id": "earn2trade-50000-eod",
+    "plan_id": "earn2trade-50000-tcp50",
     "plan_label": "TCP 50",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
@@ -6901,11 +6901,11 @@
     "price_verified": 1
   },
   {
-    "plan_id": "earn2trade-100000-eod",
+    "plan_id": "earn2trade-50000-tcp100",
     "plan_label": "TCP 100",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
-    "account_size": 100000,
+    "account_size": 50000,
     "eval_fee": 170,
     "activation_fee": 0,
     "active_discount_pct": 50,
@@ -6919,7 +6919,7 @@
     "price_verified": 1
   },
   {
-    "plan_id": "earn2trade-50000-eod",
+    "plan_id": "earn2trade-50000-gau50",
     "plan_label": "GAU 50",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
@@ -6937,7 +6937,7 @@
     "price_verified": 1
   },
   {
-    "plan_id": "earn2trade-100000-eod",
+    "plan_id": "earn2trade-100000-gau100",
     "plan_label": "GAU 100",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
@@ -6955,7 +6955,7 @@
     "price_verified": 1
   },
   {
-    "plan_id": "earn2trade-150000-eod",
+    "plan_id": "earn2trade-150000-gau150",
     "plan_label": "GAU 150",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
@@ -6973,7 +6973,7 @@
     "price_verified": 1
   },
   {
-    "plan_id": "earn2trade-200000-eod",
+    "plan_id": "earn2trade-200000-gau200",
     "plan_label": "GAU 200",
     "firm_id": "earn2trade",
     "firm_name": "Earn2Trade",
