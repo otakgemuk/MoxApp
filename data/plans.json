@@ -7113,9 +7113,6 @@
     "reset_fee": 60.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 3000,
-    "max_drawdown_limit": 2000,
-    "max_contracts": "5 Minis / 50 Micros",
     "base_cost_to_funded": 125.0,
     "total_cost_to_funded": 62.5,
     "price_status": "ok",
@@ -7123,7 +7120,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "intraday",
+    "drawdown_amount": 2000,
+    "max_funded_accounts": 5,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-50000-eod-qp",
@@ -7137,9 +7137,6 @@
     "reset_fee": 105.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 3000,
-    "max_drawdown_limit": 2000,
-    "max_contracts": "5 Minis / 50 Micros",
     "base_cost_to_funded": 175.0,
     "total_cost_to_funded": 87.5,
     "price_status": "ok",
@@ -7147,7 +7144,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "eod",
+    "drawdown_amount": 2000,
+    "max_funded_accounts": 5,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-50000-static-qp",
@@ -7161,9 +7161,6 @@
     "reset_fee": 104.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 1500,
-    "max_drawdown_limit": 500,
-    "max_contracts": "1 Mini / 10 Micros",
     "base_cost_to_funded": 165.0,
     "total_cost_to_funded": 82.5,
     "price_status": "ok",
@@ -7171,7 +7168,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "static",
+    "drawdown_amount": 500,
+    "max_funded_accounts": 1,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-100000-intraday-qp",
@@ -7185,9 +7185,6 @@
     "reset_fee": 110.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 6000,
-    "max_drawdown_limit": 3000,
-    "max_contracts": "10 Minis / 50 Micros",
     "base_cost_to_funded": 230.0,
     "total_cost_to_funded": 115.0,
     "price_status": "ok",
@@ -7195,7 +7192,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "intraday",
+    "drawdown_amount": 3000,
+    "max_funded_accounts": 10,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-100000-eod-qp",
@@ -7209,9 +7209,6 @@
     "reset_fee": 124.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 6000,
-    "max_drawdown_limit": 3000,
-    "max_contracts": "10 Minis / 50 Micros",
     "base_cost_to_funded": 275.0,
     "total_cost_to_funded": 137.5,
     "price_status": "ok",
@@ -7219,7 +7216,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "eod",
+    "drawdown_amount": 3000,
+    "max_funded_accounts": 10,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-100000-static-qp",
@@ -7233,9 +7233,6 @@
     "reset_fee": 124.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 2500,
-    "max_drawdown_limit": 750,
-    "max_contracts": "2 Minis / 20 Micros",
     "base_cost_to_funded": 250.0,
     "total_cost_to_funded": 125.0,
     "price_status": "ok",
@@ -7243,7 +7240,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "static",
+    "drawdown_amount": 750,
+    "max_funded_accounts": 2,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-150000-intraday-qp",
@@ -7257,9 +7257,6 @@
     "reset_fee": 165.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 9000,
-    "max_drawdown_limit": 4500,
-    "max_contracts": "15 Minis / 50 Micros",
     "base_cost_to_funded": 350.0,
     "total_cost_to_funded": 175.0,
     "price_status": "ok",
@@ -7267,7 +7264,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "intraday",
+    "drawdown_amount": 4500,
+    "max_funded_accounts": 15,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-150000-eod-qp",
@@ -7281,9 +7281,6 @@
     "reset_fee": 149.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 9000,
-    "max_drawdown_limit": 4000,
-    "max_contracts": "15 Minis / 50 Micros",
     "base_cost_to_funded": 375.0,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
@@ -7291,7 +7288,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "eod",
+    "drawdown_amount": 4000,
+    "max_funded_accounts": 15,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-150000-static-qp",
@@ -7305,9 +7305,6 @@
     "reset_fee": 149.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 3750,
-    "max_drawdown_limit": 1000,
-    "max_contracts": "3 Minis / 30 Micros",
     "base_cost_to_funded": 350.0,
     "total_cost_to_funded": 175.0,
     "price_status": "ok",
@@ -7315,7 +7312,10 @@
     "consistency_eval": 30,
     "consistency_funded": 0,
     "min_trading_days": 5,
-    "payout_structure": "Day 1"
+    "drawdown_type": "static",
+    "drawdown_amount": 1000,
+    "max_funded_accounts": 3,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-50000-intraday-fp",
@@ -7329,9 +7329,6 @@
     "reset_fee": 60.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 3000,
-    "max_drawdown_limit": 2000,
-    "max_contracts": "5 Minis / 50 Micros",
     "base_cost_to_funded": 145.0,
     "total_cost_to_funded": 72.5,
     "price_status": "ok",
@@ -7339,7 +7336,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "intraday",
+    "drawdown_amount": 2000,
+    "max_funded_accounts": 5,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-50000-eod-fp",
@@ -7353,9 +7353,6 @@
     "reset_fee": 105.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 3000,
-    "max_drawdown_limit": 2000,
-    "max_contracts": "5 Minis / 50 Micros",
     "base_cost_to_funded": 195.0,
     "total_cost_to_funded": 97.5,
     "price_status": "ok",
@@ -7363,7 +7360,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "eod",
+    "drawdown_amount": 2000,
+    "max_funded_accounts": 5,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-50000-static-fp",
@@ -7377,9 +7377,6 @@
     "reset_fee": 104.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 1500,
-    "max_drawdown_limit": 500,
-    "max_contracts": "1 Mini / 10 Micros",
     "base_cost_to_funded": 185.0,
     "total_cost_to_funded": 92.5,
     "price_status": "ok",
@@ -7387,7 +7384,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "static",
+    "drawdown_amount": 500,
+    "max_funded_accounts": 1,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-100000-intraday-fp",
@@ -7401,9 +7401,6 @@
     "reset_fee": 110.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 6000,
-    "max_drawdown_limit": 3000,
-    "max_contracts": "10 Minis / 50 Micros",
     "base_cost_to_funded": 250.0,
     "total_cost_to_funded": 125.0,
     "price_status": "ok",
@@ -7411,7 +7408,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "intraday",
+    "drawdown_amount": 3000,
+    "max_funded_accounts": 10,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-100000-eod-fp",
@@ -7425,9 +7425,6 @@
     "reset_fee": 124.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 6000,
-    "max_drawdown_limit": 3000,
-    "max_contracts": "10 Minis / 50 Micros",
     "base_cost_to_funded": 295.0,
     "total_cost_to_funded": 147.5,
     "price_status": "ok",
@@ -7435,7 +7432,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "eod",
+    "drawdown_amount": 3000,
+    "max_funded_accounts": 10,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-100000-static-fp",
@@ -7449,9 +7449,6 @@
     "reset_fee": 124.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 2500,
-    "max_drawdown_limit": 750,
-    "max_contracts": "2 Minis / 20 Micros",
     "base_cost_to_funded": 270.0,
     "total_cost_to_funded": 135.0,
     "price_status": "ok",
@@ -7459,7 +7456,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "static",
+    "drawdown_amount": 750,
+    "max_funded_accounts": 2,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-150000-intraday-fp",
@@ -7473,9 +7473,6 @@
     "reset_fee": 165.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 9000,
-    "max_drawdown_limit": 4500,
-    "max_contracts": "15 Minis / 50 Micros",
     "base_cost_to_funded": 375.0,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
@@ -7483,7 +7480,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "intraday",
+    "drawdown_amount": 4500,
+    "max_funded_accounts": 15,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-150000-eod-fp",
@@ -7497,9 +7497,6 @@
     "reset_fee": 149.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 9000,
-    "max_drawdown_limit": 4000,
-    "max_contracts": "15 Minis / 50 Micros",
     "base_cost_to_funded": 395.0,
     "total_cost_to_funded": 197.5,
     "price_status": "ok",
@@ -7507,7 +7504,10 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "eod",
+    "drawdown_amount": 4000,
+    "max_funded_accounts": 15,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "tradeday-150000-static-fp",
@@ -7521,9 +7521,6 @@
     "reset_fee": 149.0,
     "active_discount_pct": 50,
     "has_discount": 1,
-    "profit_target": 3750,
-    "max_drawdown_limit": 1000,
-    "max_contracts": "3 Minis / 30 Micros",
     "base_cost_to_funded": 375.0,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
@@ -7531,6 +7528,9 @@
     "consistency_eval": 45,
     "consistency_funded": 0,
     "min_trading_days": 3,
-    "payout_structure": "Milestone"
+    "drawdown_type": "static",
+    "drawdown_amount": 1000,
+    "max_funded_accounts": 3,
+    "max_funded_status": "specified"
   }
 ]
