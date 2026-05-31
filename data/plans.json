@@ -6880,7 +6880,11 @@
     "base_cost_to_funded": 150,
     "total_cost_to_funded": 75.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   },
   {
     "plan_id": "earn2trade-50000-tcp50",
@@ -6898,7 +6902,11 @@
     "base_cost_to_funded": 190,
     "total_cost_to_funded": 95.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   },
   {
     "plan_id": "earn2trade-50000-tcp100",
@@ -6916,7 +6924,11 @@
     "base_cost_to_funded": 170,
     "total_cost_to_funded": 85.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   },
   {
     "plan_id": "earn2trade-50000-gau50",
@@ -6934,7 +6946,11 @@
     "base_cost_to_funded": 170,
     "total_cost_to_funded": 85.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   },
   {
     "plan_id": "earn2trade-100000-gau100",
@@ -6952,7 +6968,11 @@
     "base_cost_to_funded": 315,
     "total_cost_to_funded": 157.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   },
   {
     "plan_id": "earn2trade-150000-gau150",
@@ -6970,7 +6990,11 @@
     "base_cost_to_funded": 375,
     "total_cost_to_funded": 187.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   },
   {
     "plan_id": "earn2trade-200000-gau200",
@@ -6988,6 +7012,10 @@
     "base_cost_to_funded": 550,
     "total_cost_to_funded": 275.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "max_funded_accounts": 5,
+    "min_trading_days": 10,
+    "consistency_eval": 30,
+    "consistency_funded": 30
   }
 ]
