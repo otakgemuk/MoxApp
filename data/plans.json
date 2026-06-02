@@ -7195,10 +7195,10 @@
     "account_size": 150000,
     "eval_fee": 347,
     "activation_fee": 0,
-    "active_discount_pct": 0,
+    "active_discount_pct": 20,
     "has_discount": 1,
     "base_cost_to_funded": 347,
-    "total_cost_to_funded": 308,
+    "total_cost_to_funded": 277.6,
     "price_status": "ok",
     "price_verified": 1
   }
