@@ -6648,7 +6648,8 @@
     "base_cost_to_funded": 95,
     "total_cost_to_funded": 57,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Flex"
   },
   {
     "plan_id": "myfundedfutures-25k-rapid",
@@ -6665,7 +6666,8 @@
     "base_cost_to_funded": 109,
     "total_cost_to_funded": 65.4,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Rapid"
   },
   {
     "plan_id": "myfundedfutures-50k-builder-(dd-2k)",
@@ -6682,7 +6684,8 @@
     "base_cost_to_funded": 153,
     "total_cost_to_funded": 91.8,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Builder"
   },
   {
     "plan_id": "myfundedfutures-50k-builder-(dd-1.5k)",
@@ -6699,7 +6702,8 @@
     "base_cost_to_funded": 125,
     "total_cost_to_funded": 75.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Builder"
   },
   {
     "plan_id": "myfundedfutures-50k-flex",
@@ -6716,7 +6720,8 @@
     "base_cost_to_funded": 153,
     "total_cost_to_funded": 91.8,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Flex"
   },
   {
     "plan_id": "myfundedfutures-50k-pro",
@@ -6733,7 +6738,8 @@
     "base_cost_to_funded": 227,
     "total_cost_to_funded": 113.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Pro"
   },
   {
     "plan_id": "myfundedfutures-50k-rapid",
@@ -6750,7 +6756,8 @@
     "base_cost_to_funded": 157,
     "total_cost_to_funded": 117.75,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Rapid"
   },
   {
     "plan_id": "myfundedfutures-100k-pro",
@@ -6767,7 +6774,8 @@
     "base_cost_to_funded": 344,
     "total_cost_to_funded": 172.0,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Pro"
   },
   {
     "plan_id": "myfundedfutures-100k-rapid",
@@ -6784,7 +6792,8 @@
     "base_cost_to_funded": 267,
     "total_cost_to_funded": 213.6,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Rapid"
   },
   {
     "plan_id": "myfundedfutures-150k-pro",
@@ -6801,7 +6810,8 @@
     "base_cost_to_funded": 477,
     "total_cost_to_funded": 238.5,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Pro"
   },
   {
     "plan_id": "myfundedfutures-150k-rapid",
@@ -6818,6 +6828,7 @@
     "base_cost_to_funded": 347,
     "total_cost_to_funded": 277.6,
     "price_status": "ok",
-    "price_verified": 1
+    "price_verified": 1,
+    "plan_type": "Rapid"
   }
 ]
