@@ -6499,7 +6499,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "earn2trade-50000-tcp50",
@@ -6521,7 +6522,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "earn2trade-50000-tcp100",
@@ -6543,7 +6545,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "earn2trade-50000-gau50",
@@ -6565,7 +6568,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "earn2trade-100000-gau100",
@@ -6587,7 +6591,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "earn2trade-150000-gau150",
@@ -6609,7 +6614,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "plan_id": "earn2trade-200000-gau200",
@@ -6631,7 +6637,8 @@
     "max_funded_accounts": 5,
     "min_trading_days": 10,
     "consistency_eval": 30,
-    "consistency_funded": 30
+    "consistency_funded": 30,
+    "max_funded_status": "specified"
   },
   {
     "firm_id": "myfundedfutures",
