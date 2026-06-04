@@ -1,6 +1,5 @@
 import { useState } from "react";
 import App from "./App";
-import ContentGenerator from "./ContentGenerator";
 
 const C = {
   bg: "#0a0e27",
