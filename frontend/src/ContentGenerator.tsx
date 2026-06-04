@@ -19,15 +19,38 @@ const PILLARS   = ["Redundancy","Economics","Speed","Scalability"];
 const HOOTSUITE_NETWORK: Record<string, string> = { Twitter:"TWITTER", Facebook:"FACEBOOK", Instagram:"INSTAGRAM" };
 const CODE = "MOT";
 
+// Firm website URLs
+const firmUrls: Record<string, string> = {
+  'Alpha Futures': 'https://bit.ly/Alphaox',
+  'Apex Trader Funding': 'https://bit.ly/ap0x90',
+  'BluSky Trading': 'https://blusky.pro',
+  'Bulenox': 'https://bit.ly/motbul',
+  'DayTraders': 'https://bit.ly/oxday',
+  'E8 Markets': 'https://e8markets.com/d/MOT',
+  'Elite Trader Funding': 'https://elitetraderfunding.com',
+  'Funded Futures Network': 'https://bit.ly/0xffn',
+  'Legends Trading': 'https://bit.ly/oxlegends',
+  'Lucid Trading': 'https://lucidtrading.com/ref/mightyoxtrading/',
+  'MyFundedFutures': 'https://bit.ly/motmffu',
+  'OneUp Trader': 'https://bit.ly/oneupox',
+  'Phidias Propfirm': 'https://bit.ly/phdiox',
+  'Phoenix Trader Funding': 'https://bit.ly/pheox',
+  'Purdia Capital': 'https://bit.ly/oxpur',
+  'Take Profit Trader': 'https://takeprofittrader.com',
+  'Topstep': 'https://www.topstep.com',
+  'Tradeify': 'https://tradeify.co/?ref=MOT',
+};
+
+
 // ─── CONTENT LIBRARY ───────────────────────────────────────────────────────
 const buildLibrary = (firm: string) => ({
   pain:{
     Redundancy:{
       Twitter:[
         `Most futures traders blow up before they find their edge.\n\nNot because they're bad traders. Because they were undercapitalized.\n\n${firm} gives you the redundancy to keep trading when markets correct.`,
-        `One bad week shouldn't end your trading career.\n\nWith ${firm}, it doesn't.\n\nMultiple account options. Restart protocols. Built-in redundancy.\n\nCode ${CODE}. Link in bio.\n\n#FundedTrader`,
-        `Personal account blown. Again.\n\nThe cycle ends when you stop using scared money.\n\n${firm} funds you. You trade the plan.\n\nCode ${CODE} → link in bio.\n\n#PropFirm #ScaredMoney`,
-        `Redundancy isn't weakness. It's strategy.\n\n${firm} traders don't rely on one account. They build systems.\n\nCode ${CODE}. Link in bio.\n\n#FuturesTrading #FundedTrader`,
+        `One bad week shouldn't end your trading career.\n\nWith ${firm}, it doesn't.\n\nMultiple account options. Restart protocols. Built-in redundancy.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader`,
+        `Personal account blown. Again.\n\nThe cycle ends when you stop using scared money.\n\n${firm} funds you. You trade the plan.\n\nCode ${CODE} → ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #ScaredMoney`,
+        `Redundancy isn't weakness. It's strategy.\n\n${firm} traders don't rely on one account. They build systems.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading #FundedTrader`,
       ],
       Facebook:[
         `Let me be direct with you.\n\nThe reason most futures traders fail isn't their strategy. It's that they have no redundancy. One bad week wipes them out entirely.\n\n${firm} solves this structural problem.`,
@@ -36,38 +59,38 @@ const buildLibrary = (firm: string) => ({
         `If your trading relies on one account with no backup plan, that's not a business. That's a gamble.\n\n${firm} funded traders operate differently. Multiple accounts. Clear drawdown rules. Real redundancy.`,
       ],
       Instagram:[
-        `One blown account shouldn't end your trading career.\n\n${firm} builds redundancy into your operation.\n\nTrade their capital. Protect yours.\n\nCode ${CODE} — link in bio.\n\n#PropFirm`,
-        `Scared money destroys good traders.\n\nThe fix is structural — not psychological.\n\n${firm} removes personal capital from the equation.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrading`,
-        `Your edge is real. Your capital is the problem.\n\n${firm} solves the capital problem.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrader #PropFirm #GetFunded #TradeSharp #DayTrader`,
-        `Built-in redundancy. Clear rules. Real payouts.\n\nThat's what ${firm} offers funded traders.\n\nCode ${CODE} — link in bio.\n\n#FundedTrader #PropFirm #FuturesTrading #MightyOxTrading`,
+        `One blown account shouldn't end your trading career.\n\n${firm} builds redundancy into your operation.\n\nTrade their capital. Protect yours.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#PropFirm`,
+        `Scared money destroys good traders.\n\nThe fix is structural — not psychological.\n\n${firm} removes personal capital from the equation.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading`,
+        `Your edge is real. Your capital is the problem.\n\n${firm} solves the capital problem.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrader #PropFirm #GetFunded #TradeSharp #DayTrader`,
+        `Built-in redundancy. Clear rules. Real payouts.\n\nThat's what ${firm} offers funded traders.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #PropFirm #FuturesTrading #MightyOxTrading`,
       ],
     },
     Economics:{
       Twitter:[
         `The math on self-funding a futures account doesn't work for most traders.\n\n${firm} changes the economics entirely.\n\nYou pass. You get funded. You keep the majority of profits.\n\nCode ${CODE}.`,
-        `Eval fee vs. 6 months of blown personal accounts.\n\nRun the numbers.\n\n${firm} + code ${CODE} is the better economic decision.\n\nLink in bio.\n\n#FundedTrader #PropFirm`,
+        `Eval fee vs. 6 months of blown personal accounts.\n\nRun the numbers.\n\n${firm} + code ${CODE} is the better economic decision.\n\n${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #PropFirm`,
         `The economics of prop trading:\n\n→ Pay a small eval fee\n→ Trade firm capital\n→ Keep 80-90% of profits\n→ Scale up over time\n\n${firm} runs this model. Code ${CODE} at checkout.`,
-        `Stop paying tuition to the market with your own money.\n\n${firm} changes the risk/reward economics of your trading career.\n\nCode ${CODE}. Link in bio.\n\n#FuturesTrader #PropFirm #GetFunded`,
+        `Stop paying tuition to the market with your own money.\n\n${firm} changes the risk/reward economics of your trading career.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrader #PropFirm #GetFunded`,
       ],
       Facebook:[
         `Let's talk economics.\n\nA typical futures trader self-funding a $50k account risks real capital every session. One bad week = a significant personal loss.\n\n${firm}'s evaluation model flips this.`,
         `Here's a number most traders don't calculate: the true cost of trading undercapitalized.\n\nIt's not just the losses. It's the psychological cost of trading scared. The bad decisions that follow.`,
         `Prop trading economics in plain terms:\n\n1. Eval fee (small)\n2. Hit profit target within rules\n3. Get funded\n4. Keep 80-90% of profits\n5. Scale\n\nThat's the model. ${firm} executes it perfectly.`,
-        `The question isn't whether the eval fee is worth it.\n\nThe question is what it costs you to keep trading undercapitalized for another year.\n\n${firm} + code ${CODE}. Link in bio.`,
+        `The question isn't whether the eval fee is worth it.\n\nThe question is what it costs you to keep trading undercapitalized for another year.\n\n${firm} + code ${CODE}. ${firmUrls[f] || "https://example.com"}`,
       ],
       Instagram:[
-        `The economics of futures trading change entirely when it's not your money at risk.\n\n${firm} funds you. You trade. You split profits.\n\nCode ${CODE} — link in bio.\n\n#PropFirm #FuturesTrading`,
-        `Eval fee vs. year of losses.\n\nRun the math.\n\n${firm} + code ${CODE} wins.\n\nLink in bio.\n\n#PropFirm #FundedTrader #FuturesTrading #MightyOxTrading`,
-        `Trading their capital. Keeping your profits.\n\nThat's the ${firm} economic model.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrader #GetFunded #PropFirm #TradeSharp`,
-        `Stop using your savings as trading capital.\n\n${firm} changes the equation.\n\nCode ${CODE} — link in bio.\n\n#FundedTrader #PropFirm #FuturesTrading #DayTrader`,
+        `The economics of futures trading change entirely when it's not your money at risk.\n\n${firm} funds you. You trade. You split profits.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading`,
+        `Eval fee vs. year of losses.\n\nRun the math.\n\n${firm} + code ${CODE} wins.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FundedTrader #FuturesTrading #MightyOxTrading`,
+        `Trading their capital. Keeping your profits.\n\nThat's the ${firm} economic model.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrader #GetFunded #PropFirm #TradeSharp`,
+        `Stop using your savings as trading capital.\n\n${firm} changes the equation.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #PropFirm #FuturesTrading #DayTrader`,
       ],
     },
     Speed:{
       Twitter:[
         `How long does it take to get funded with ${firm}?\n\nAs long as it takes you to hit the profit target within the rules.\n\nNo arbitrary time limits. You trade your plan at your pace.\n\nCode ${CODE}.`,
-        `Traders who rush the eval fail.\n\nTraders who trade their process pass.\n\n${firm} rewards consistency, not speed.\n\nCode ${CODE}. Link in bio.\n\n#PropFirm #TradingDiscipline`,
-        `The fastest path to a funded account isn't trading faster.\n\nIt's trading cleaner.\n\n${firm} rewards that approach.\n\nCode ${CODE}. Link in bio.\n\n#FuturesTrading #FundedTrader`,
-        `Fast-tracked or methodical — ${firm}'s eval process accommodates your trading style.\n\nHit the target. Respect the rules. Get funded.\n\nCode ${CODE}. Link in bio.\n\n#FundedTrader #FuturesTrading`,
+        `Traders who rush the eval fail.\n\nTraders who trade their process pass.\n\n${firm} rewards consistency, not speed.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #TradingDiscipline`,
+        `The fastest path to a funded account isn't trading faster.\n\nIt's trading cleaner.\n\n${firm} rewards that approach.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading #FundedTrader`,
+        `Fast-tracked or methodical — ${firm}'s eval process accommodates your trading style.\n\nHit the target. Respect the rules. Get funded.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #FuturesTrading`,
       ],
       Facebook:[
         `One question I get often: "How fast can I pass the ${firm} eval?"\n\nHonest answer: as fast as your trading edge allows.\n\nIf you have a real process, some traders pass in days. Others take weeks.`,
@@ -76,53 +99,53 @@ const buildLibrary = (firm: string) => ({
         `Speed is a byproduct of process — not a goal in itself.\n\nThe traders I see pass ${firm} evals fastest are following a defined trading plan. Session by session.\n\nCode ${CODE} at checkout.`,
       ],
       Instagram:[
-        `Fast eval or slow eval — the only metric that matters is: did you follow the rules?\n\n${firm} rewards clean process, not speed.\n\nCode ${CODE} — link in bio.\n\n#PropFirm #TradingDiscipline`,
-        `Singles over home runs.\n\nThat's how funded traders pass ${firm} evals.\n\nCode ${CODE} — link in bio.\n\n#FundedTrader #PropFirm #DisciplineWins #FuturesTrader`,
-        `Your edge doesn't need speed. It needs repetition.\n\n${firm} gives you the environment to prove that.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrading #PropFirm #TradeSharp #MightyOxTrading`,
-        `Rushed the eval. Blew the drawdown. Back to square one.\n\nTrade your process. ${firm} rewards consistency.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrading #TradingMindset #PropFirm`,
+        `Fast eval or slow eval — the only metric that matters is: did you follow the rules?\n\n${firm} rewards clean process, not speed.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #TradingDiscipline`,
+        `Singles over home runs.\n\nThat's how funded traders pass ${firm} evals.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #PropFirm #DisciplineWins #FuturesTrader`,
+        `Your edge doesn't need speed. It needs repetition.\n\n${firm} gives you the environment to prove that.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading #PropFirm #TradeSharp #MightyOxTrading`,
+        `Rushed the eval. Blew the drawdown. Back to square one.\n\nTrade your process. ${firm} rewards consistency.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading #TradingMindset #PropFirm`,
       ],
     },
     Scalability:{
       Twitter:[
-        `Getting funded with ${firm} isn't the destination.\n\nIt's the starting point.\n\nConsistent traders scale. Multiple accounts. Higher targets. Real income.\n\nCode ${CODE}. Link in bio.\n\n#PropFirm`,
-        `Scalability is why prop trading beats personal accounts long term.\n\nWith ${firm}: prove your edge → get funded → scale capital → grow payouts.\n\nCode ${CODE}. Link in bio.\n\n#FuturesTrading`,
-        `One funded account becomes two. Two becomes a system.\n\nThat's how ${firm} traders build scalable income streams.\n\nCode ${CODE}. Link in bio.\n\n#FuturesTrading #PropFirm`,
-        `The ceiling on personal account trading is your savings.\n\nThe ceiling on ${firm} trading is your consistency.\n\nCode ${CODE}. Link in bio.\n\n#PropFirm #FuturesTrading #ScaleUp`,
+        `Getting funded with ${firm} isn't the destination.\n\nIt's the starting point.\n\nConsistent traders scale. Multiple accounts. Higher targets. Real income.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#PropFirm`,
+        `Scalability is why prop trading beats personal accounts long term.\n\nWith ${firm}: prove your edge → get funded → scale capital → grow payouts.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading`,
+        `One funded account becomes two. Two becomes a system.\n\nThat's how ${firm} traders build scalable income streams.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading #PropFirm`,
+        `The ceiling on personal account trading is your savings.\n\nThe ceiling on ${firm} trading is your consistency.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading #ScaleUp`,
       ],
       Facebook:[
         `Most traders think of a funded account as a goal.\n\nThe smarter traders think of it as infrastructure.\n\n${firm} lets consistent traders run multiple funded accounts simultaneously. You focus on trading.`,
         `Here's how the ${firm} scalability model works in practice:\n\nPass eval → get funded → trade consistently → request payout → add second account → repeat.\n\nYour personal capital stays untouched.`,
-        `Scaling a trading operation used to require serious personal capital.\n\n${firm} changes that. Your edge is the asset. Their capital is the infrastructure.\n\nCode ${CODE}. Link in bio.`,
+        `Scaling a trading operation used to require serious personal capital.\n\n${firm} changes that. Your edge is the asset. Their capital is the infrastructure.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}`,
         `A question worth sitting with: what does your trading operation look like at 5x the current account size?\n\n${firm} makes that question answerable without risking your own money.\n\nCode ${CODE}.`,
       ],
       Instagram:[
-        `One account is a start. Five accounts is a system.\n\n${firm} traders build scalable operations.\n\nCode ${CODE} — link in bio.\n\n#FundedTrader #PropFirm #ScaleUp #FuturesTrader`,
-        `Eval → funded → consistent → scale.\n\nThat's the ${firm} growth path.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrader #PropFirm #TradeSharp #GetFunded`,
-        `Your edge scales. Your capital doesn't have to.\n\n${firm} funds the growth.\n\nCode ${CODE} — link in bio.\n\n#PropFirm #FuturesTrading #MightyOxTrading #FundedTrader`,
-        `The ceiling on your trading income is your consistency — not your savings.\n\n${firm} makes that real.\n\nCode ${CODE} — link in bio.\n\n#FundedTrader #ScaleUp #PropFirm #FuturesTrading`,
+        `One account is a start. Five accounts is a system.\n\n${firm} traders build scalable operations.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #PropFirm #ScaleUp #FuturesTrader`,
+        `Eval → funded → consistent → scale.\n\nThat's the ${firm} growth path.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrader #PropFirm #TradeSharp #GetFunded`,
+        `Your edge scales. Your capital doesn't have to.\n\n${firm} funds the growth.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading #MightyOxTrading #FundedTrader`,
+        `The ceiling on your trading income is your consistency — not your savings.\n\n${firm} makes that real.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader #ScaleUp #PropFirm #FuturesTrading`,
       ],
     },
   },
   promo:{
     Redundancy:{
-      Twitter:[`Promo live: ${firm} eval discount + code ${CODE}.\n\nFewer excuses. More funded accounts.\n\nLink in bio.\n\n#PropFirm #FuturesTrading`,`${firm} discount still running.\n\nCode ${CODE}. Link in bio.`],
+      Twitter:[`Promo live: ${firm} eval discount + code ${CODE}.\n\nFewer excuses. More funded accounts.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading`,`${firm} discount still running.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}`],
       Facebook:[`Quick heads-up — ${firm} is running a discount on evaluation accounts.\n\nStack with affiliate code ${CODE} for extra savings.\n\nI've personally vetted this firm: transparent rules, real results.`],
-      Instagram:[`Promo alert: ${firm} eval fees just dropped.\n\nCode ${CODE} at checkout.\n\nLink in bio.\n\n#PropFirm #FundedFutures #TradingPromo #FuturesTrader #TradeSharp`,`${firm} discount active now.`],
+      Instagram:[`Promo alert: ${firm} eval fees just dropped.\n\nCode ${CODE} at checkout.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FundedFutures #TradingPromo #FuturesTrader #TradeSharp`,`${firm} discount active now.`],
     },
     Economics:{
-      Twitter:[`${firm} eval cost vs. months of personal account losses.\n\nRun the math.\n\nCode ${CODE}. Link in bio.\n\n#PropFirm #FuturesTrading`,`The economics of getting funded have never been better.`],
+      Twitter:[`${firm} eval cost vs. months of personal account losses.\n\nRun the math.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading`,`The economics of getting funded have never been better.`],
       Facebook:[`The economic argument for ${firm} is simple: a discounted eval fee vs. trading undercapitalized for another quarter.\n\nThe numbers favor the eval. Code ${CODE} at checkout.`,`${firm} + code ${CODE} = competitive advantage.`],
-      Instagram:[`${firm} eval economics → code ${CODE} makes it cheaper.\n\nLink in bio.\n\n#PropFirm #FuturesTrader #TradeSharp`,`Low eval fee. Firm capital. Real payouts.\n\n${firm} + code ${CODE}.`],
+      Instagram:[`${firm} eval economics → code ${CODE} makes it cheaper.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrader #TradeSharp`,`Low eval fee. Firm capital. Real payouts.\n\n${firm} + code ${CODE}.`],
     },
     Speed:{
-      Twitter:[`Pass the ${firm} eval at your pace.\n\nNo time limits. Just process.\n\nCode ${CODE}. Link in bio.\n\n#PropFirm #FuturesTrading`,`Discount on ${firm} evals = lower cost per attempt.`],
+      Twitter:[`Pass the ${firm} eval at your pace.\n\nNo time limits. Just process.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading`,`Discount on ${firm} evals = lower cost per attempt.`],
       Facebook:[`The ${firm} eval has no arbitrary time limit. Trade your process until you hit the target.\n\nThe promo makes the entry cost lower. Code ${CODE} at checkout.`,`Speed tip for the ${firm} eval: focus on consistency.`],
-      Instagram:[`No time limit. Just process.\n\n${firm} + code ${CODE}.\n\nLink in bio.\n\n#PropFirm #FundedTrader #FuturesTrader`,`Cheaper entry = less pressure on the eval.\n\n${firm} promo active.`],
+      Instagram:[`No time limit. Just process.\n\n${firm} + code ${CODE}.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FundedTrader #FuturesTrader`,`Cheaper entry = less pressure on the eval.\n\n${firm} promo active.`],
     },
     Scalability:{
-      Twitter:[`Start with one ${firm} eval. Scale to multiple funded accounts.\n\nCode ${CODE} makes the first step cheaper.\n\nLink in bio.\n\n#PropFirm #FuturesTrading`,`${firm} promo = lower barrier to scaling.`],
+      Twitter:[`Start with one ${firm} eval. Scale to multiple funded accounts.\n\nCode ${CODE} makes the first step cheaper.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading`,`${firm} promo = lower barrier to scaling.`],
       Facebook:[`Every scalable ${firm} trading operation started with a single eval.\n\nThe promo makes that first step cheaper. Code ${CODE} at checkout.`,`${firm} traders who scale run multiple accounts simultaneously.`],
-      Instagram:[`One funded account is the start.\n\n${firm} promo makes it cheaper to begin.\n\nCode ${CODE} — link in bio.\n\n#PropFirm #FundedTrader #ScaleUp`,`Scale starts with step one.\n${firm} makes it affordable.`],
+      Instagram:[`One funded account is the start.\n\n${firm} promo makes it cheaper to begin.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FundedTrader #ScaleUp`,`Scale starts with step one.\n${firm} makes it affordable.`],
     },
   },
 });
@@ -130,34 +153,34 @@ const buildLibrary = (firm: string) => ({
 // Inline single-post templates (one-time / weekly preview)
 const singlePost = {
   pain:{
-    Twitter:(f: string)=>`Most futures traders fail because of undercapitalization — not bad strategy.\n\n${f} gives you the capital. You bring the edge.\n\nCode ${CODE} → link in bio.\n\n#PropFirm #FuturesTrading`,
+    Twitter:(f: string)=>`Most futures traders fail because of undercapitalization — not bad strategy.\n\n${f} gives you the capital. You bring the edge.\n\nCode ${CODE} → ${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FuturesTrading`,
     Facebook:(f: string)=>`Let me be honest with you.\n\nMost aspiring futures traders don't fail because they lack skill. They fail because they're undercapitalized, overleveraged, and trading scared money.\n\n${f} fixes this.`,
-    Instagram:(f: string)=>`Trading with scared money is the #1 reason most futures traders blow up.\n\nNot lack of skill. Not bad setups. Scared money.\n\n${f} removes that from the equation.\n\nCode ${CODE} — link in bio.`,
+    Instagram:(f: string)=>`Trading with scared money is the #1 reason most futures traders blow up.\n\nNot lack of skill. Not bad setups. Scared money.\n\n${f} removes that from the equation.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}`,
   },
   promo:{
     Twitter:(f: string)=>`${f} promo is live.\n\nUse code ${CODE} at checkout.\n\nFewer excuses. More funded accounts.\n\n#PropFirm #FuturesTrading #FundedTrader`,
     Facebook:(f: string)=>`Quick heads-up — ${f} currently has a discount on evaluation accounts.\n\nStack with code ${CODE} for additional savings.\n\nI've personally vetted this firm — solid rules, real support.`,
-    Instagram:(f: string)=>`Promo alert — ${f} eval fees just got cheaper.\n\nCode ${CODE} at checkout.\n\nThe cost of entry is lower than your last losing trade.\n\nLink in bio.\n\n#PropFirm #FundedFutures`,
+    Instagram:(f: string)=>`Promo alert — ${f} eval fees just got cheaper.\n\nCode ${CODE} at checkout.\n\nThe cost of entry is lower than your last losing trade.\n\n${firmUrls[f] || "https://example.com"}\n\n#PropFirm #FundedFutures`,
   },
   lifestyle:{
-    Twitter:(f: string)=>`Funded trader life isn't glamorous.\n\nIt's discipline. Process. Consistency.\n\n${f} gives you the capital to execute that process at scale.\n\nCode ${CODE}. Link in bio.\n\n#FuturesTrading`,
+    Twitter:(f: string)=>`Funded trader life isn't glamorous.\n\nIt's discipline. Process. Consistency.\n\n${f} gives you the capital to execute that process at scale.\n\nCode ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading`,
     Facebook:(f: string)=>`I want to paint a realistic picture of what getting funded actually looks like.\n\nIt's not lambos and beach trades. It's waking up at market open, executing your plan without emotion.`,
-    Instagram:(f: string)=>`Wake up. Review the plan. Execute. Log off.\n\nThat's the funded trader routine.\n\n${f} funds traders who can do that consistently.\n\nCode ${CODE} — link in bio.\n\n#FundedTrader`,
+    Instagram:(f: string)=>`Wake up. Review the plan. Execute. Log off.\n\nThat's the funded trader routine.\n\n${f} funds traders who can do that consistently.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FundedTrader`,
   },
   lowbarrier:{
     Twitter:(f: string)=>`You don't need $50k to trade futures seriously.\n\n${f} eval accounts start at a fraction of that.\n\nCode ${CODE} makes it even cheaper.\n\n#FuturesTrading #PropFirm #GetFunded`,
     Facebook:(f: string)=>`The barrier to getting a funded futures account is lower than most people think.\n\n${f} has evaluation accounts at multiple sizes — you pick what fits your skill level and budget.`,
-    Instagram:(f: string)=>`Getting funded doesn't require a massive bankroll.\n\n${f} eval → prove your edge → get funded → split profits.\n\nCode ${CODE} cuts the upfront cost.\n\nLink in bio.\n\n#FundedTrader`,
+    Instagram:(f: string)=>`Getting funded doesn't require a massive bankroll.\n\n${f} eval → prove your edge → get funded → split profits.\n\nCode ${CODE} cuts the upfront cost.\n\n${firmUrls[f] || "https://example.com"}\n\n#FundedTrader`,
   },
   volatility:{
-    Twitter:(f: string)=>`Volatility is back. ES and NQ are moving.\n\nThis is when funded traders make their month.\n\n${f} — code ${CODE}. Link in bio.\n\n#ESFutures #NQFutures #FuturesTrading`,
+    Twitter:(f: string)=>`Volatility is back. ES and NQ are moving.\n\nThis is when funded traders make their month.\n\n${f} — code ${CODE}. ${firmUrls[f] || "https://example.com"}\n\n#ESFutures #NQFutures #FuturesTrading`,
     Facebook:(f: string)=>`Markets are moving right now. If you've been waiting for "the right time" to get a funded account — this is it.\n\nVolatility creates opportunity. Opportunity rewards prepared traders.`,
-    Instagram:(f: string)=>`ES and NQ are moving.\n\nThis is what funded traders train for.\n\n${f} puts capital behind traders who are ready for moments like this.\n\nCode ${CODE} — link in bio.\n\n#FuturesTrading`,
+    Instagram:(f: string)=>`ES and NQ are moving.\n\nThis is what funded traders train for.\n\n${f} puts capital behind traders who are ready for moments like this.\n\nCode ${CODE} — ${firmUrls[f] || "https://example.com"}\n\n#FuturesTrading`,
   },
   story:{
     Twitter:(f: string)=>`Trader passes ${f} eval on the second attempt.\n\nFirst attempt: revenge traded after a bad session.\nSecond attempt: followed the plan. Hit the target.\n\nProcess > emotion. Always.\n\nCode ${CODE}.`,
     Facebook:(f: string)=>`Here's a story I hear a lot.\n\nTrader blows their personal account. Frustrated, they almost quit. Then they discover prop firms — specifically ${f}.\n\nThey take the eval seriously. They pass. They rebuild.`,
-    Instagram:(f: string)=>`From blown account to funded trader.\n\nThat's the story ${f} makes possible.\n\nYou don't need a perfect record. You need a proven process.\n\nCode ${CODE} at checkout.\n\nLink in bio.\n\n#FundedTrader`,
+    Instagram:(f: string)=>`From blown account to funded trader.\n\nThat's the story ${f} makes possible.\n\nYou don't need a perfect record. You need a proven process.\n\nCode ${CODE} at checkout.\n\n${firmUrls[f] || "https://example.com"}\n\n#FundedTrader`,
   },
 } as const;
 
