@@ -1,5 +1,4 @@
-import { useState } from "react";
-import type { CSSProperties } from "react";
+import { useState, CSSProperties } from "react";
 
 const FIRMS = [
   "Alpha Futures","Apex Trader Funding","Bulenox","DayTraders","E8 Futures",
@@ -17,7 +16,7 @@ const ANGLES = [
 ];
 const PLATFORMS = ["Twitter","Facebook","Instagram"];
 const PILLARS   = ["Redundancy","Economics","Speed","Scalability"];
-const HOOTSUITE_NETWORK = { Twitter:"TWITTER", Facebook:"FACEBOOK", Instagram:"INSTAGRAM" };
+const HOOTSUITE_NETWORK: Record<string, string> = { Twitter:"TWITTER", Facebook:"FACEBOOK", Instagram:"INSTAGRAM" };
 const CODE = "MOT";
 
 // ─── CONTENT LIBRARY ───────────────────────────────────────────────────────
@@ -170,19 +169,29 @@ function fmtDate(date: Date, time: string): string {
   return `${yy}/${mo}/${dd} ${time}`;
 }
 
-function buildOneTime(firm: string, angle: string, platforms: string[], startDate: Date, postTime: string) {
-  const lib = (singlePost as any)[angle] || singlePost.pain;
+interface ScheduleItem {
+  date: string;
+  message: string;
+  network: string;
+  platform: string;
+  pillar: string;
+  week: number;
+  day: number;
+}
+
+function buildOneTime(firm: string, angle: string, platforms: string[], startDate: Date, postTime: string): ScheduleItem[] {
+  const lib = (singlePost as Record<string, any>)[angle] || singlePost.pain;
   return platforms.map((p, i) => {
     const d = new Date(startDate);
     d.setDate(d.getDate() + i);
-    return { date: fmtDate(d, postTime), message: (lib[p]||lib.Twitter)(firm), network: (HOOTSUITE_NETWORK as any)[p], platform: p, pillar:"—", week:1, day:i+1 };
+    return { date: fmtDate(d, postTime), message: (lib[p as keyof typeof lib]||lib.Twitter)(firm), network: HOOTSUITE_NETWORK[p], platform: p, pillar:"—", week:1, day:i+1 };
   });
 }
 
-function buildWeekly(firm: string, angle: string, platforms: string[], startDate: Date, postTime: string) {
+function buildWeekly(firm: string, angle: string, platforms: string[], startDate: Date, postTime: string): ScheduleItem[] {
   const lib = buildLibrary(firm);
-  const angleData = (lib as any)[angle] || (lib as any).pain;
-  const rows: any[] = [];
+  const angleData = (lib as Record<string, any>)[angle] || (lib as Record<string, any>).pain;
+  const rows: ScheduleItem[] = [];
   PILLARS.forEach((pillar, pIdx) => {
     const pillarData = angleData[pillar] || angleData[PILLARS[0]];
     platforms.forEach((platform, platIdx) => {
@@ -190,16 +199,16 @@ function buildWeekly(firm: string, angle: string, platforms: string[], startDate
       const text = postArr[pIdx % postArr.length];
       const d = new Date(startDate);
       d.setDate(d.getDate() + pIdx * 7 + platIdx);
-      rows.push({ date: fmtDate(d, postTime), message: text.replace(/"/g,'""'), network: (HOOTSUITE_NETWORK as any)[platform], platform, pillar, week: pIdx+1, day: pIdx*7+platIdx+1 });
+      rows.push({ date: fmtDate(d, postTime), message: text.replace(/"/g,'""'), network: HOOTSUITE_NETWORK[platform], platform, pillar, week: pIdx+1, day: pIdx*7+platIdx+1 });
     });
   });
   return rows;
 }
 
-function buildFourWeek(firm: string, angle: string, platforms: string[], startDate: Date, postTime: string) {
+function buildFourWeek(firm: string, angle: string, platforms: string[], startDate: Date, postTime: string): ScheduleItem[] {
   const lib = buildLibrary(firm);
-  const angleData = (lib as any)[angle] || (lib as any).pain;
-  const rows: any[] = [];
+  const angleData = (lib as Record<string, any>)[angle] || (lib as Record<string, any>).pain;
+  const rows: ScheduleItem[] = [];
   let dayCount = 0;
   PILLARS.forEach((pillar, pillarIdx) => {
     const pillarData = angleData[pillar] || angleData[PILLARS[0]];
@@ -210,16 +219,16 @@ function buildFourWeek(firm: string, angle: string, platforms: string[], startDa
       const text = postArr[weekPostIdx % postArr.length];
       const date = new Date(startDate);
       date.setDate(date.getDate() + dayCount);
-      rows.push({ date: fmtDate(date, postTime), message: text.replace(/"/g,'""'), network: (HOOTSUITE_NETWORK as any)[platform], platform, pillar, week: pillarIdx+1, day: dayCount+1 });
+      rows.push({ date: fmtDate(date, postTime), message: text.replace(/"/g,'""'), network: HOOTSUITE_NETWORK[platform], platform, pillar, week: pillarIdx+1, day: dayCount+1 });
       dayCount++;
     }
   });
   return rows;
 }
 
-function toCSV(rows: any[]): string {
+function toCSV(rows: ScheduleItem[]): string {
   const lines = [["Date","Message","Networks"].join(",")];
-  rows.forEach((r: any) => lines.push([`"${r.date}"`,`"${r.message}"`,`"${r.network}"`].join(",")));
+  rows.forEach((r) => lines.push([`"${r.date}"`,`"${r.message}"`,`"${r.network}"`].join(",")));
   return lines.join("\n");
 }
 
@@ -233,7 +242,7 @@ function downloadCSV(content: string, filename: string): void {
 
 // ─── STYLES ──────────────────────────────────────────────────────────
 const C = { bg:"#0a0c0f", card:"#0f1623", border:"#1e2a3a", gold:"#f5c842", green:"#22c87a", blue:"#3b82f6", text:"#e2e8f0", muted:"#64748b" };
-const pColor = { Redundancy:"#3b82f6", Economics:"#22c87a", Speed:"#f5c842", Scalability:"#a78bfa" };
+const pColor: Record<string, string> = { Redundancy:"#3b82f6", Economics:"#22c87a", Speed:"#f5c842", Scalability:"#a78bfa" };
 
 const s: Record<string, any> = {
   wrap:     { fontFamily:"'DM Mono','Space Mono',monospace", background:C.bg, minHeight:"100vh", padding:"20px 18px", color:C.text, boxSizing:"border-box" } as CSSProperties,
@@ -244,23 +253,23 @@ const s: Record<string, any> = {
   input:    { width:"100%", background:C.card, border:`1px solid ${C.border}`, color:C.text, padding:"9px 10px", borderRadius:"5px", fontSize:"12px", fontFamily:"inherit", boxSizing:"border-box" } as CSSProperties,
   grid2:    { display:"grid", gridTemplateColumns:"1fr 1fr", gap:"12px", marginBottom:"12px" } as CSSProperties,
   tabRow:   { display:"flex", gap:"6px", marginBottom:"12px", flexWrap:"wrap" } as CSSProperties,
-  tab:   (a: boolean): CSSProperties => ({ padding:"7px 13px", borderRadius:"5px", fontSize:"11px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.gold}`:`1px solid ${C.border}`, background:a?"#1a1400":C.card }),
-  modeTab:(a: boolean): CSSProperties => ({ padding:"9px 16px", borderRadius:"5px", fontSize:"11px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.green}`:`1px solid ${C.border}`, background:a?"#0d2e1f":C.card }),
-  platBtn:(a: boolean): CSSProperties => ({ padding:"6px 13px", borderRadius:"5px", fontSize:"11px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.blue}`:`1px solid ${C.border}`, background:a?"#0d1f3c":C.card }),
-  genBtn: (d: boolean): CSSProperties => ({ width:"100%", padding:"13px", background:d?C.card:C.green, border:"none", borderRadius:"5px", color:d?C.muted:C.bg, fontSize:"12px", fontWeight:"bold", fontFamily:"inherit", cursor:"pointer" }),
+  tab:   (a: boolean): CSSProperties => ({ padding:"7px 13px", borderRadius:"5px", fontSize:"11px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.gold}`:`1px solid ${C.border}`, background:a?"#1a1400":C.card } as CSSProperties),
+  modeTab:(a: boolean): CSSProperties => ({ padding:"9px 16px", borderRadius:"5px", fontSize:"11px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.green}`:`1px solid ${C.border}`, background:a?"#0d2e1f":C.card } as CSSProperties),
+  platBtn:(a: boolean): CSSProperties => ({ padding:"6px 13px", borderRadius:"5px", fontSize:"11px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.blue}`:`1px solid ${C.border}`, background:a?"#0d1f3c":C.card } as CSSProperties),
+  genBtn: (d: boolean): CSSProperties => ({ width:"100%", padding:"13px", background:d?C.card:C.green, border:"none", borderRadius:"5px", color:d?C.muted:C.bg, fontSize:"12px", fontWeight:"bold", fontFamily:"inherit", cursor:"pointer" } as CSSProperties),
   csvBtn:   { padding:"9px 16px", background:C.gold, border:"none", borderRadius:"5px", color:C.bg, fontSize:"11px", fontWeight:"bold", fontFamily:"inherit", cursor:"pointer", letterSpacing:"1px" } as CSSProperties,
   divider:  { borderTop:`1px solid ${C.border}`, margin:"18px 0" } as CSSProperties,
-  postCard:(p: string): CSSProperties => ({ background:C.card, border:`1px solid ${C.border}`, borderLeft:`3px solid ${(pColor as any)[p]||C.gold}`, borderRadius:"7px", padding:"14px", marginBottom:"8px" }),
+  postCard:(p: string): CSSProperties => ({ background:C.card, border:`1px solid ${C.border}`, borderLeft:`3px solid ${pColor[p]||C.gold}`, borderRadius:"7px", padding:"14px", marginBottom:"8px" } as CSSProperties),
   metaRow:  { display:"flex", gap:"6px", flexWrap:"wrap", marginBottom:"8px" } as CSSProperties,
-  tag:   (c: string): CSSProperties => ({ fontSize:"10px", letterSpacing:"1px", textTransform:"uppercase", color:c, border:`1px solid ${c}`, borderRadius:"3px", padding:"2px 7px" }),
+  tag:   (c: string): CSSProperties => ({ fontSize:"10px", letterSpacing:"1px", textTransform:"uppercase", color:c, border:`1px solid ${c}`, borderRadius:"3px", padding:"2px 7px" } as CSSProperties),
   postText: { color:C.text, fontSize:"11px", lineHeight:"1.8", whiteSpace:"pre-wrap", margin:0, fontFamily:"inherit" } as CSSProperties,
   row:      { display:"flex", justifyContent:"space-between", alignItems:"center" } as CSSProperties,
-  copyBtn:(ok: boolean): CSSProperties => ({ padding:"4px 10px", background:"transparent", border:ok?`1px solid ${C.green}`:`1px solid ${C.border}`, borderRadius:"4px", color:ok?C.green:C.muted, fontSize:"10px", fontFamily:"inherit" }),
+  copyBtn:(ok: boolean): CSSProperties => ({ padding:"4px 10px", background:"transparent", border:ok?`1px solid ${C.green}`:`1px solid ${C.border}`, borderRadius:"4px", color:ok?C.green:C.muted, fontSize:"10px", fontFamily:"inherit" } as CSSProperties),
   summBox:  { background:C.card, border:`1px solid ${C.border}`, borderRadius:"7px", padding:"14px", marginBottom:"14px" } as CSSProperties,
   statGrid: { display:"grid", gridTemplateColumns:"repeat(4,1fr)", gap:"10px", marginTop:"10px" } as CSSProperties,
   statNum:  { color:C.gold, fontSize:"20px", fontWeight:"bold", textAlign:"center" } as CSSProperties,
   statLbl:  { color:C.muted, fontSize:"9px", letterSpacing:"1px", textTransform:"uppercase", marginTop:"2px", textAlign:"center" } as CSSProperties,
-  filterBtn:(a: boolean): CSSProperties => ({ padding:"5px 11px", borderRadius:"4px", fontSize:"10px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.gold}`:`1px solid ${C.border}`, background:a?"#1a1400":C.card }),
+  filterBtn:(a: boolean): CSSProperties => ({ padding:"5px 11px", borderRadius:"4px", fontSize:"10px", fontFamily:"inherit", cursor:"pointer", border:a?`1px solid ${C.gold}`:`1px solid ${C.border}`, background:a?"#1a1400":C.card } as CSSProperties),
   infoBox:  { background:"#0a1628", border:`1px solid ${C.border}`, borderRadius:"6px", padding:"10px 14px", marginBottom:"12px" } as CSSProperties,
 };
 
@@ -277,16 +286,16 @@ const modeDesc: Record<string, string> = {
 };
 
 export default function ContentGenerator() {
-  const [mode,       setMode]       = useState("onetime");
-  const [firm,       setFirm]       = useState("");
-  const [angle,      setAngle]      = useState("pain");
-  const [platforms,  setPlatforms]  = useState(["Twitter"]);
-  const [startDate,  setStartDate]  = useState(()=>new Date().toISOString().split("T")[0]);
-  const [postTime,   setPostTime]   = useState("09:00");
-  const [schedule,   setSchedule]   = useState<any>(null);
+  const [mode,       setMode]       = useState<string>("onetime");
+  const [firm,       setFirm]       = useState<string>("");
+  const [angle,      setAngle]      = useState<string>("pain");
+  const [platforms,  setPlatforms]  = useState<string[]>(["Twitter"]);
+  const [startDate,  setStartDate]  = useState<string>(()=>new Date().toISOString().split("T")[0]);
+  const [postTime,   setPostTime]   = useState<string>("09:00");
+  const [schedule,   setSchedule]   = useState<ScheduleItem[] | null>(null);
   const [copied,     setCopied]     = useState<Record<string|number, boolean>>({});
-  const [filterWeek, setFilterWeek] = useState(0);
-  const [filterPillar,setFilterPillar]=useState("All");
+  const [filterWeek, setFilterWeek] = useState<number>(0);
+  const [filterPillar,setFilterPillar]=useState<string>("All");
 
   const togglePlat = (p: string) => setPlatforms(prev =>
     prev.includes(p) ? (prev.length > 1 ? prev.filter(x=>x!==p) : prev) : [...prev,p]
@@ -301,7 +310,7 @@ export default function ContentGenerator() {
   const generate = () => {
     if (!firm) return;
     const d = new Date(startDate);
-    let rows;
+    let rows: ScheduleItem[];
     if      (mode==="onetime")  rows = buildOneTime(firm,angle,platforms,d,postTime);
     else if (mode==="weekly")   rows = buildWeekly(firm,angle,platforms,d,postTime);
     else                         rows = buildFourWeek(firm,angle,platforms,d,postTime);
@@ -318,7 +327,7 @@ export default function ContentGenerator() {
     downloadCSV(csv, `MightyOx_${slug}_${mode}_${angle}_${ds}.csv`);
   };
 
-  const displayed = (schedule||[]).filter((r: any)=>
+  const displayed = (schedule||[]).filter(r=>
     (filterWeek===0 || r.week===filterWeek) &&
     (filterPillar==="All" || r.pillar===filterPillar)
   );
@@ -390,7 +399,7 @@ export default function ContentGenerator() {
         <div style={{...s.infoBox,marginBottom:"14px"}}>
           <span style={{color:C.muted,fontSize:"10px",letterSpacing:"1px",textTransform:"uppercase"}}>Pillar Rotation</span>
           <div style={{...s.metaRow,marginTop:"6px"}}>
-            {PILLARS.map(p=><span key={p} style={s.tag((pColor as any)[p])}>{`Wk ${PILLARS.indexOf(p)+1}: ${p}`}</span>)}
+            {PILLARS.map(p=><span key={p} style={s.tag(pColor[p])}>{`Wk ${PILLARS.indexOf(p)+1}: ${p}`}</span>)}
           </div>
         </div>
       )}
@@ -444,10 +453,10 @@ export default function ContentGenerator() {
           )}
 
           {/* Post cards */}
-          {displayed.map((r: any,i: number)=>(
+          {displayed.map((r,i)=>(
             <div key={i} style={s.postCard(r.pillar)}>
               <div style={s.metaRow}>
-                {r.pillar!=="—" && <span style={s.tag((pColor as any)[r.pillar]||C.gold)}>{r.pillar}</span>}
+                {r.pillar!=="—" && <span style={s.tag(pColor[r.pillar]||C.gold)}>{r.pillar}</span>}
                 <span style={s.tag(C.blue)}>{r.platform}</span>
                 <span style={s.tag(C.muted)}>Day {r.day}</span>
                 <span style={s.tag(C.green)}>{r.date}</span>
