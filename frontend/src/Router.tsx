@@ -64,7 +64,7 @@ export default function Router() {
       {/* Tool Container */}
       <div style={{ padding: "20px" }}>
         {activeTool === "pricing" && <App />}
-        {activeTool === "content" && <ContentGenerator />}
+        
       </div>
     </div>
   );
