@@ -11,7 +11,7 @@ const C = {
 };
 
 export default function Router() {
-  const [activeTool, setActiveTool] = useState<"pricing" | "content">("pricing");
+  const [activeTool, setActiveTool] = useState<"pricing">("pricing");
 
   return (
     <div style={{ minHeight: "100vh", background: C.bg, color: C.text }}>
@@ -43,21 +43,7 @@ export default function Router() {
           >
             💰 Prop Firm Pricing
           </button>
-          <button
-            onClick={() => setActiveTool("content")}
-            style={{
-              padding: "8px 16px",
-              background: activeTool === "content" ? C.gold : "transparent",
-              color: activeTool === "content" ? C.bg : C.text,
-              border: `1px solid ${C.gold}`,
-              borderRadius: "4px",
-              cursor: "pointer",
-              fontWeight: "600",
-              fontSize: "14px",
-            }}
-          >
-            ✍️ Content Generator
-          </button>
+
         </div>
       </nav>
 
