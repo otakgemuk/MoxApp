@@ -1,7 +1,13 @@
 import App from "./App";
-import { Colors } from "./lib/colors";
 
-const C = Colors;
+const C = {
+  bg: "#0a0e27",
+  border: "#1a2332",
+  gold: "#d4af37",
+  green: "#4ade80",
+  text: "#e8eaed",
+  muted: "#8b92a9",
+};
 
 export default function Router() {
   return (
