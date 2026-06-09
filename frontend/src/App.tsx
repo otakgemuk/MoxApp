@@ -39,17 +39,17 @@ export default function App() {
     limit: 100,
   };
 
-  const { data, allPlans, pagination, isLoading, error, firms } = usePlans(filters);
+  const { data, pagination, isLoading, error, firms } = usePlans(filters);
 
   // ── Export to Markdown ─────────────────────────────────
   // Fetches plans.json directly and applies current filters (no pagination).
   // When no filters are active, exports ALL plans.
-  const exportMarkdown = useCallback(() => {
-    if (!allPlans.length) return alert("No data loaded yet");
+  const exportMarkdown = useCallback(async () => {
+    const res = await fetch("./plans.json");
+    if (!res.ok) return alert("Failed to load plans data");
+    let rows: PlanRow[] = await res.json();
 
-    let rows = [...allPlans];
-
-    // Apply current filters
+    // Apply the same filters as usePlans (but no pagination)
     if (accountSize && accountSize > 0) {
       if (accountSize === 250000) {
         rows = rows.filter((r) => r.account_size >= 250000);
@@ -97,7 +97,10 @@ export default function App() {
       const dd = p.drawdown_amount ? `$${p.drawdown_amount.toLocaleString()}` : "—";
       const pt = p.profit_target ? `$${p.profit_target.toLocaleString()}` : "None";
       const disc = p.active_discount_pct > 0 ? `${p.active_discount_pct}%` : "—";
-      md += `| ${p.firm_name} | ${p.account_type || p.plan_label} | ${p.plan_label} | ${p.drawdown_type || "—"} | ${dd} | ${pt} | $${p.eval_fee.toLocaleString()} | $${p.activation_fee.toLocaleString()} | ${disc} | $${p.total_cost_to_funded.toLocaleString()} |\n`;
+      const ef = p.eval_fee != null ? `$${p.eval_fee.toLocaleString()}` : "—";
+      const af = p.activation_fee != null ? `$${p.activation_fee.toLocaleString()}` : "—";
+      const tc = p.total_cost_to_funded != null ? `$${p.total_cost_to_funded.toLocaleString()}` : "—";
+      md += `| ${p.firm_name} | ${p.account_type || p.plan_label} | ${p.plan_label} | ${p.drawdown_type || "—"} | ${dd} | ${pt} | ${ef} | ${af} | ${disc} | ${tc} |\n`;
     });
     md += `\n`;
 
@@ -108,7 +111,7 @@ export default function App() {
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-  }, [allPlans, accountSize, accountTypes, drawdowns, firmIds, search, sortValue]);
+  }, [accountSize, accountTypes, drawdowns, firmIds, search, sortValue]);
 
   // ── Sync table column sorting → filter state ───────────
   const handleSortingChange = useCallback((sorting: SortingState) => {
