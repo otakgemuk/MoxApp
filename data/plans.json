@@ -30,7 +30,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -63,7 +64,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -96,7 +98,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -129,7 +132,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -162,7 +166,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -195,7 +200,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -228,7 +234,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -261,7 +268,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -294,7 +302,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -327,7 +336,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -360,7 +370,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "alpha_futures",
@@ -393,7 +404,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -428,7 +440,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
-    "max_contracts": 4
+    "max_contracts": 4,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -463,7 +476,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
-    "max_contracts": 4
+    "max_contracts": 4,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -498,7 +512,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
-    "max_contracts": 6
+    "max_contracts": 6,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -533,7 +548,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
-    "max_contracts": 6
+    "max_contracts": 6,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -568,7 +584,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
-    "max_contracts": 8
+    "max_contracts": 8,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -603,7 +620,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
-    "max_contracts": 8
+    "max_contracts": 8,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -638,7 +656,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
-    "max_contracts": 12
+    "max_contracts": 12,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -673,7 +692,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
-    "max_contracts": 12
+    "max_contracts": 12,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "bulenox",
@@ -706,7 +726,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -739,7 +760,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -772,7 +794,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -805,7 +828,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -838,7 +862,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -871,7 +896,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -904,7 +930,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "bulenox",
@@ -937,7 +964,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "e8_markets",
@@ -970,7 +998,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "e8_markets",
@@ -1003,7 +1032,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "e8_markets",
@@ -1036,7 +1066,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "e8_markets",
@@ -1069,7 +1100,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1102,7 +1134,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1135,7 +1168,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1168,7 +1202,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1201,7 +1236,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1234,7 +1270,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1267,7 +1304,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1300,7 +1338,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1333,7 +1372,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1366,7 +1406,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1399,7 +1440,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1432,7 +1474,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "elite_trader_fun",
@@ -1465,7 +1508,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1498,7 +1542,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1531,7 +1576,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1564,7 +1610,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1597,7 +1644,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1630,7 +1678,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1663,7 +1712,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1696,7 +1746,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1729,7 +1780,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1762,7 +1814,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1795,7 +1848,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1828,7 +1882,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1861,7 +1916,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1894,7 +1950,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1927,7 +1984,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1960,7 +2018,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -1993,7 +2052,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -2026,7 +2086,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -2059,7 +2120,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -2092,7 +2154,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "funded_futures_n",
@@ -2125,7 +2188,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2158,7 +2222,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2191,7 +2256,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2224,7 +2290,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2257,7 +2324,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2290,7 +2358,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2323,7 +2392,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "legends_trading",
@@ -2356,7 +2426,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2389,7 +2460,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2422,7 +2494,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2455,7 +2528,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2488,7 +2562,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2521,7 +2596,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2554,7 +2630,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2587,7 +2664,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2620,7 +2698,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2653,7 +2732,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2686,7 +2766,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2719,7 +2800,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "lucid_trading",
@@ -2752,7 +2834,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "oneup_trader",
@@ -2785,7 +2868,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "oneup_trader",
@@ -2818,7 +2902,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "oneup_trader",
@@ -2851,7 +2936,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "oneup_trader",
@@ -2884,7 +2970,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "oneup_trader",
@@ -2917,7 +3004,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phoenix_trader_f",
@@ -2950,7 +3038,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phoenix_trader_f",
@@ -2983,7 +3072,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phoenix_trader_f",
@@ -3016,7 +3106,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phoenix_trader_f",
@@ -3049,7 +3140,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phoenix_trader_f",
@@ -3082,7 +3174,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phoenix_trader_f",
@@ -3115,7 +3208,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "take_profit_trad",
@@ -3148,7 +3242,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "take_profit_trad",
@@ -3181,7 +3276,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "take_profit_trad",
@@ -3214,7 +3310,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "take_profit_trad",
@@ -3247,7 +3344,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "take_profit_trad",
@@ -3280,7 +3378,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "topstep",
@@ -3313,7 +3412,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "topstep",
@@ -3346,7 +3446,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "topstep",
@@ -3379,7 +3480,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "topstep",
@@ -3412,7 +3514,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "topstep",
@@ -3445,7 +3548,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "topstep",
@@ -3478,7 +3582,8 @@
     "has_discount": 0,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3511,7 +3616,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3544,7 +3650,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3577,7 +3684,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3610,7 +3718,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3643,7 +3752,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3676,7 +3786,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3709,7 +3820,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3742,7 +3854,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3775,7 +3888,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3808,7 +3922,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3841,7 +3956,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "tradeify",
@@ -3874,7 +3990,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 1,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -3908,7 +4025,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 127,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -3942,7 +4060,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 55.4,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -3976,7 +4095,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 288,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4010,7 +4130,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 144.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4044,7 +4165,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 214.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4078,7 +4200,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 116,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4112,7 +4235,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 280.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4146,7 +4270,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 144.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4180,7 +4305,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 308,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4214,7 +4340,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 180,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4248,7 +4375,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 438.2,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4282,7 +4410,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 144.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4316,7 +4445,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 313.4,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4350,7 +4480,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 180,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4384,7 +4515,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 368,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4418,7 +4550,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 225,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4452,7 +4585,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 514.2,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4486,7 +4620,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 172.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4520,7 +4655,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 397,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "phidias",
@@ -4554,7 +4690,8 @@
     "price_status": "ok",
     "has_discount": 1,
     "base_cost_to_funded": 224.6,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4587,7 +4724,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4620,7 +4758,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4653,7 +4792,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4686,7 +4826,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4719,7 +4860,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4752,7 +4894,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4785,7 +4928,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4818,7 +4962,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4851,7 +4996,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4884,7 +5030,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4917,7 +5064,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4950,7 +5098,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -4983,7 +5132,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -5016,7 +5166,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "daytraders",
@@ -5049,7 +5200,8 @@
     "has_discount": 1,
     "max_funded_status": "specified",
     "price_verified": 0,
-    "price_status": "ok"
+    "price_status": "ok",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-50k-launch",
@@ -5082,7 +5234,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 158,
-    "total_cost_to_funded": 158
+    "total_cost_to_funded": 158,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-100k-launch",
@@ -5115,7 +5268,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 168,
-    "total_cost_to_funded": 168
+    "total_cost_to_funded": 168,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-200k-launch-static",
@@ -5148,7 +5302,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 178,
-    "total_cost_to_funded": 178
+    "total_cost_to_funded": 178,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-25k-propel",
@@ -5181,7 +5336,8 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "base_cost_to_funded": 150,
-    "total_cost_to_funded": 105.0
+    "total_cost_to_funded": 105.0,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-50k-propel",
@@ -5214,7 +5370,8 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "base_cost_to_funded": 160,
-    "total_cost_to_funded": 112
+    "total_cost_to_funded": 112,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-100k-propel",
@@ -5247,7 +5404,8 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "base_cost_to_funded": 220,
-    "total_cost_to_funded": 154.0
+    "total_cost_to_funded": 154.0,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-150k-propel-static",
@@ -5280,7 +5438,8 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "base_cost_to_funded": 170,
-    "total_cost_to_funded": 119.0
+    "total_cost_to_funded": 119.0,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-200k-propel-static",
@@ -5313,7 +5472,8 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "base_cost_to_funded": 270,
-    "total_cost_to_funded": 189.0
+    "total_cost_to_funded": 189.0,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-300k-propel-static",
@@ -5346,7 +5506,8 @@
     "active_discount_pct": 30,
     "has_discount": 1,
     "base_cost_to_funded": 320,
-    "total_cost_to_funded": 224.0
+    "total_cost_to_funded": 224.0,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-50k-orbit",
@@ -5379,7 +5540,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 199,
-    "total_cost_to_funded": 199
+    "total_cost_to_funded": 199,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-100k-orbit",
@@ -5412,7 +5574,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 249,
-    "total_cost_to_funded": 249
+    "total_cost_to_funded": 249,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-200k-orbit-static",
@@ -5445,7 +5608,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 299,
-    "total_cost_to_funded": 299
+    "total_cost_to_funded": 299,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-50k-instant-funded",
@@ -5478,7 +5642,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 599,
-    "total_cost_to_funded": 599
+    "total_cost_to_funded": 599,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-3.5k-direct-2-funded",
@@ -5511,7 +5676,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 749,
-    "total_cost_to_funded": 749
+    "total_cost_to_funded": 749,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-2k-stocks",
@@ -5544,7 +5710,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 199,
-    "total_cost_to_funded": 199
+    "total_cost_to_funded": 199,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-4k-stocks",
@@ -5577,7 +5744,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 399,
-    "total_cost_to_funded": 399
+    "total_cost_to_funded": 399,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "blusky-pro-7k-stocks",
@@ -5610,7 +5778,8 @@
     "active_discount_pct": 0,
     "has_discount": 0,
     "base_cost_to_funded": 699,
-    "total_cost_to_funded": 699
+    "total_cost_to_funded": 699,
+    "affiliate_code": "MOT"
   },
   {
     "firm_name": "Purdia Capital",
@@ -5894,7 +6063,8 @@
     "price_verified": 0,
     "profit_split": 80,
     "trustpilot": null,
-    "website_url": "https://bit.ly/oxday"
+    "website_url": "https://bit.ly/oxday",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "daytraders-150000-s2l",
@@ -5933,7 +6103,8 @@
     "price_verified": 0,
     "profit_split": 80,
     "trustpilot": null,
-    "website_url": "https://bit.ly/oxday"
+    "website_url": "https://bit.ly/oxday",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "daytraders-300000-s2l",
@@ -5972,7 +6143,8 @@
     "price_verified": 0,
     "profit_split": 80,
     "trustpilot": null,
-    "website_url": "https://bit.ly/oxday"
+    "website_url": "https://bit.ly/oxday",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6007,7 +6179,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
-    "max_contracts": 4
+    "max_contracts": 4,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6042,7 +6215,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 1000,
-    "max_contracts": 4
+    "max_contracts": 4,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6077,7 +6251,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
-    "max_contracts": 6
+    "max_contracts": 6,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6112,7 +6287,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 2000,
-    "max_contracts": 6
+    "max_contracts": 6,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6147,7 +6323,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
-    "max_contracts": 8
+    "max_contracts": 8,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6182,7 +6359,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 3000,
-    "max_contracts": 8
+    "max_contracts": 8,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6217,7 +6395,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
-    "max_contracts": 12
+    "max_contracts": 12,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "firm_id": "apex_trader_fund",
@@ -6252,7 +6431,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "max_dd": 4000,
-    "max_contracts": 12
+    "max_contracts": 12,
+    "affiliate_code": "MIGHTYOX"
   },
   {
     "plan_id": "tradeday-50000-intraday-qp",
@@ -6277,7 +6457,8 @@
     "drawdown_amount": 2000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 3000
+    "profit_target": 3000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-50000-eod-qp",
@@ -6302,7 +6483,8 @@
     "drawdown_amount": 2000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 3000
+    "profit_target": 3000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-100000-intraday-qp",
@@ -6327,7 +6509,8 @@
     "drawdown_amount": 3000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 6000
+    "profit_target": 6000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-100000-eod-qp",
@@ -6352,7 +6535,8 @@
     "drawdown_amount": 3000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 6000
+    "profit_target": 6000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-150000-intraday-qp",
@@ -6377,7 +6561,8 @@
     "drawdown_amount": 4500,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 9000
+    "profit_target": 9000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-150000-eod-qp",
@@ -6402,7 +6587,8 @@
     "drawdown_amount": 4000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 9000
+    "profit_target": 9000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-50000-eod-fp",
@@ -6427,7 +6613,8 @@
     "drawdown_amount": 2000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 3000
+    "profit_target": 3000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-100000-eod-fp",
@@ -6452,7 +6639,8 @@
     "drawdown_amount": 3000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 6000
+    "profit_target": 6000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "tradeday-150000-eod-fp",
@@ -6477,7 +6665,8 @@
     "drawdown_amount": 4000,
     "max_funded_accounts": 5,
     "max_funded_status": "specified",
-    "profit_target": 9000
+    "profit_target": 9000,
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-25000-tcp25",
@@ -6500,7 +6689,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-50000-tcp50",
@@ -6523,7 +6713,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-50000-tcp100",
@@ -6546,7 +6737,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-50000-gau50",
@@ -6569,7 +6761,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-100000-gau100",
@@ -6592,7 +6785,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-150000-gau150",
@@ -6615,7 +6809,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "plan_id": "earn2trade-200000-gau200",
@@ -6638,7 +6833,8 @@
     "min_trading_days": 10,
     "consistency_eval": 30,
     "consistency_funded": 30,
-    "max_funded_status": "specified"
+    "max_funded_status": "specified",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6673,7 +6869,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 0,
-    "discount_amount": 0
+    "discount_amount": 0,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6708,7 +6905,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20.2,
-    "discount_amount": 22
+    "discount_amount": 22,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6743,7 +6941,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "discount_pct": 40,
-    "discount_amount": 61
+    "discount_amount": 61,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6778,7 +6977,8 @@
     "price_verified": 1,
     "price_status": "ok",
     "discount_pct": 40,
-    "discount_amount": 50
+    "discount_amount": 50,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6813,7 +7013,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 0,
-    "discount_amount": 0
+    "discount_amount": 0,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6849,7 +7050,8 @@
     "price_status": "ok",
     "discount_pct": 0,
     "discount_amount": 0,
-    "retail_eval_fee": 139
+    "retail_eval_fee": 139,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6884,7 +7086,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 50,
-    "discount_amount": 114
+    "discount_amount": 114,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6919,7 +7122,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20,
-    "discount_amount": 31
+    "discount_amount": 31,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6954,7 +7158,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 50,
-    "discount_amount": 172
+    "discount_amount": 172,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -6989,7 +7194,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20,
-    "discount_amount": 53
+    "discount_amount": 53,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -7024,7 +7230,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 50,
-    "discount_amount": 238
+    "discount_amount": 238,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "myfundedfutures",
@@ -7059,7 +7266,8 @@
     "price_verified": 0,
     "price_status": "ok",
     "discount_pct": 20,
-    "discount_amount": 69
+    "discount_amount": 69,
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7089,7 +7297,8 @@
     "max_funded_accounts": 3,
     "min_trading_days": 1,
     "consistency_funded": 0,
-    "account_type": "Evaluation"
+    "account_type": "Evaluation",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7119,7 +7328,8 @@
     "max_funded_accounts": 3,
     "min_trading_days": 1,
     "consistency_funded": 0,
-    "account_type": "Evaluation"
+    "account_type": "Evaluation",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7149,7 +7359,8 @@
     "max_funded_accounts": 3,
     "min_trading_days": 1,
     "consistency_funded": 0,
-    "account_type": "Evaluation"
+    "account_type": "Evaluation",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7179,7 +7390,8 @@
     "max_funded_accounts": 3,
     "min_trading_days": 1,
     "consistency_funded": 0,
-    "account_type": "Evaluation"
+    "account_type": "Evaluation",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7209,7 +7421,8 @@
     "max_funded_accounts": 3,
     "min_trading_days": 1,
     "consistency_funded": 0,
-    "account_type": "Evaluation"
+    "account_type": "Evaluation",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7239,7 +7452,8 @@
     "base_cost_to_funded": 299,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "account_type": "Instant"
+    "account_type": "Instant",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7269,7 +7483,8 @@
     "base_cost_to_funded": 399,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "account_type": "Instant"
+    "account_type": "Instant",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7299,7 +7514,8 @@
     "base_cost_to_funded": 499,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "account_type": "Instant"
+    "account_type": "Instant",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7329,7 +7545,8 @@
     "base_cost_to_funded": 599,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "account_type": "Instant"
+    "account_type": "Instant",
+    "affiliate_code": "MOT"
   },
   {
     "firm_id": "f_nexgen",
@@ -7359,6 +7576,7 @@
     "base_cost_to_funded": 799,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "account_type": "Instant"
+    "account_type": "Instant",
+    "affiliate_code": "MOT"
   }
 ]
