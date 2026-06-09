@@ -91,8 +91,8 @@ export default function App() {
     let md = `# Prop Firm Plans\n\n`;
     md += `> Exported ${new Date().toISOString().slice(0, 10)} · ${rows.length} plans\n\n`;
 
-    md += `| Firm | Plan | Account Size | Drawdown Type | Drawdown | Profit Target | Eval Fee | Activation Fee | Discount | Total Cost |\n`;
-    md += `|------|------|-------------|---------------|----------|--------------|----------|----------------|----------|------------|\n`;
+    md += `| Firm | Plan | Account Size | Drawdown Type | Drawdown | Profit Target | Eval Fee | Activation Fee | Discount | Total Cost | Max Funded | Min Days | Consistency Eval | Consistency Funded |\n`;
+    md += `|------|------|-------------|---------------|----------|--------------|----------|----------------|----------|------------|------------|----------|-----------------|-------------------|\n`;
     rows.forEach((p) => {
       const dd = p.drawdown_amount ? `$${p.drawdown_amount.toLocaleString()}` : "—";
       const pt = p.profit_target ? `$${p.profit_target.toLocaleString()}` : "None";
@@ -100,7 +100,11 @@ export default function App() {
       const ef = p.eval_fee != null ? `$${p.eval_fee.toLocaleString()}` : "—";
       const af = p.activation_fee != null ? `$${p.activation_fee.toLocaleString()}` : "—";
       const tc = p.total_cost_to_funded != null ? `$${p.total_cost_to_funded.toLocaleString()}` : "—";
-      md += `| ${p.firm_name} | ${p.account_type || p.plan_label} | ${p.plan_label} | ${p.drawdown_type || "—"} | ${dd} | ${pt} | ${ef} | ${af} | ${disc} | ${tc} |\n`;
+      const mf = p.max_funded_accounts != null ? p.max_funded_accounts : "—";
+      const md_days = p.min_trading_days != null ? p.min_trading_days : "—";
+      const ce = p.consistency_eval != null ? `${p.consistency_eval}%` : "—";
+      const cf = p.consistency_funded != null ? `${p.consistency_funded}%` : "—";
+      md += `| ${p.firm_name} | ${p.account_type || p.plan_label} | ${p.plan_label} | ${p.drawdown_type || "—"} | ${dd} | ${pt} | ${ef} | ${af} | ${disc} | ${tc} | ${mf} | ${md_days} | ${ce} | ${cf} |\n`;
     });
     md += `\n`;
 
