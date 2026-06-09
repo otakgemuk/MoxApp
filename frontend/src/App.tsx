@@ -39,17 +39,17 @@ export default function App() {
     limit: 100,
   };
 
-  const { data, pagination, isLoading, error, firms } = usePlans(filters);
+  const { data, allPlans, pagination, isLoading, error, firms } = usePlans(filters);
 
   // ── Export to Markdown ─────────────────────────────────
   // Fetches plans.json directly and applies current filters (no pagination).
   // When no filters are active, exports ALL plans.
-  const exportMarkdown = useCallback(async () => {
-    const res = await fetch("./plans.json");
-    if (!res.ok) return alert("Failed to load plans data");
-    let rows: PlanRow[] = await res.json();
+  const exportMarkdown = useCallback(() => {
+    if (!allPlans.length) return alert("No data loaded yet");
 
-    // Apply the same filters as usePlans (but no pagination)
+    let rows = [...allPlans];
+
+    // Apply current filters
     if (accountSize && accountSize > 0) {
       if (accountSize === 250000) {
         rows = rows.filter((r) => r.account_size >= 250000);
@@ -108,7 +108,7 @@ export default function App() {
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-  }, [accountSize, accountTypes, drawdowns, firmIds, search, sortValue]);
+  }, [allPlans, accountSize, accountTypes, drawdowns, firmIds, search, sortValue]);
 
   // ── Sync table column sorting → filter state ───────────
   const handleSortingChange = useCallback((sorting: SortingState) => {
