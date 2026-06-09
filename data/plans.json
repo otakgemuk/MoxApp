@@ -7077,16 +7077,15 @@
     "profit_target": 1250,
     "profit_split": 90,
     "eval_fee": 149,
-    "activation_fee": 0,
+    "activation_fee": 119,
     "monthly_fee": 149,
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": 29.8,
-    "active_discount_pct": 80,
-    "consistency_eval": null,
-    "consistency_funded": null,
-    "base_cost_to_funded": 149
+    "total_cost_to_funded": 26.8,
+    "active_discount_pct": 90,
+    "consistency_eval": 0,
+    "base_cost_to_funded": 268
   },
   {
     "firm_id": "f_nexgen",
@@ -7104,16 +7103,15 @@
     "profit_target": 2750,
     "profit_split": 90,
     "eval_fee": 249,
-    "activation_fee": 0,
+    "activation_fee": 129,
     "monthly_fee": 249,
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": 49.8,
-    "active_discount_pct": 80,
-    "consistency_eval": null,
-    "consistency_funded": null,
-    "base_cost_to_funded": 249
+    "total_cost_to_funded": 37.8,
+    "active_discount_pct": 90,
+    "consistency_eval": 0,
+    "base_cost_to_funded": 378
   },
   {
     "firm_id": "f_nexgen",
@@ -7131,16 +7129,15 @@
     "profit_target": 4250,
     "profit_split": 90,
     "eval_fee": 299,
-    "activation_fee": 0,
+    "activation_fee": 159,
     "monthly_fee": 299,
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": 59.8,
-    "active_discount_pct": 80,
-    "consistency_eval": null,
-    "consistency_funded": null,
-    "base_cost_to_funded": 299
+    "total_cost_to_funded": 45.8,
+    "active_discount_pct": 90,
+    "consistency_eval": 0,
+    "base_cost_to_funded": 458
   },
   {
     "firm_id": "f_nexgen",
@@ -7158,16 +7155,15 @@
     "profit_target": 5500,
     "profit_split": 90,
     "eval_fee": 319,
-    "activation_fee": 0,
+    "activation_fee": 179,
     "monthly_fee": 319,
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": 63.8,
-    "active_discount_pct": 80,
-    "consistency_eval": null,
-    "consistency_funded": null,
-    "base_cost_to_funded": 319
+    "total_cost_to_funded": 49.8,
+    "active_discount_pct": 90,
+    "consistency_eval": 0,
+    "base_cost_to_funded": 498
   },
   {
     "firm_id": "f_nexgen",
@@ -7185,16 +7181,15 @@
     "profit_target": 8500,
     "profit_split": 90,
     "eval_fee": 399,
-    "activation_fee": 0,
+    "activation_fee": 199,
     "monthly_fee": 399,
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": 79.8,
-    "active_discount_pct": 80,
-    "consistency_eval": null,
-    "consistency_funded": null,
-    "base_cost_to_funded": 399
+    "total_cost_to_funded": 59.8,
+    "active_discount_pct": 90,
+    "consistency_eval": 0,
+    "base_cost_to_funded": 598
   },
   {
     "firm_id": "f_nexgen",
@@ -7220,7 +7215,8 @@
     "total_cost_to_funded": 299,
     "active_discount_pct": 0,
     "consistency_eval": null,
-    "consistency_funded": 40
+    "consistency_funded": 30,
+    "base_cost_to_funded": 299
   },
   {
     "firm_id": "f_nexgen",
@@ -7246,7 +7242,8 @@
     "total_cost_to_funded": 399,
     "active_discount_pct": 0,
     "consistency_eval": null,
-    "consistency_funded": 40
+    "consistency_funded": 30,
+    "base_cost_to_funded": 399
   },
   {
     "firm_id": "f_nexgen",
@@ -7272,7 +7269,8 @@
     "total_cost_to_funded": 499,
     "active_discount_pct": 0,
     "consistency_eval": null,
-    "consistency_funded": 40
+    "consistency_funded": 30,
+    "base_cost_to_funded": 499
   },
   {
     "firm_id": "f_nexgen",
@@ -7298,7 +7296,8 @@
     "total_cost_to_funded": 599,
     "active_discount_pct": 0,
     "consistency_eval": null,
-    "consistency_funded": 40
+    "consistency_funded": 30,
+    "base_cost_to_funded": 599
   },
   {
     "firm_id": "f_nexgen",
@@ -7324,6 +7323,7 @@
     "total_cost_to_funded": 799,
     "active_discount_pct": 0,
     "consistency_eval": null,
-    "consistency_funded": 40
+    "consistency_funded": 30,
+    "base_cost_to_funded": 799
   }
 ]
