@@ -101,13 +101,13 @@ export default function App() {
     });
     md += `\n`;
 
-    const blob = new Blob([md], { type: "text/markdown" });
-    const url = URL.createObjectURL(blob);
+    const url = "data:text/markdown;charset=utf-8," + encodeURIComponent(md);
     const a = document.createElement("a");
     a.href = url;
     a.download = `prop-firm-plans-${new Date().toISOString().slice(0, 10)}.md`;
+    document.body.appendChild(a);
     a.click();
-    URL.revokeObjectURL(url);
+    document.body.removeChild(a);
   }, [accountSize, accountTypes, drawdowns, firmIds, search, sortValue]);
 
   // ── Sync table column sorting → filter state ───────────
