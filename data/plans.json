@@ -7088,7 +7088,8 @@
     "base_cost_to_funded": 268,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "consistency_funded": 0
+    "consistency_funded": 0,
+    "account_type": "Evaluation"
   },
   {
     "firm_id": "f_nexgen",
@@ -7117,7 +7118,8 @@
     "base_cost_to_funded": 378,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "consistency_funded": 0
+    "consistency_funded": 0,
+    "account_type": "Evaluation"
   },
   {
     "firm_id": "f_nexgen",
@@ -7146,7 +7148,8 @@
     "base_cost_to_funded": 458,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "consistency_funded": 0
+    "consistency_funded": 0,
+    "account_type": "Evaluation"
   },
   {
     "firm_id": "f_nexgen",
@@ -7175,7 +7178,8 @@
     "base_cost_to_funded": 498,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "consistency_funded": 0
+    "consistency_funded": 0,
+    "account_type": "Evaluation"
   },
   {
     "firm_id": "f_nexgen",
@@ -7204,7 +7208,8 @@
     "base_cost_to_funded": 598,
     "max_funded_accounts": 3,
     "min_trading_days": 1,
-    "consistency_funded": 0
+    "consistency_funded": 0,
+    "account_type": "Evaluation"
   },
   {
     "firm_id": "f_nexgen",
@@ -7233,7 +7238,8 @@
     "consistency_funded": 30,
     "base_cost_to_funded": 299,
     "max_funded_accounts": 3,
-    "min_trading_days": 1
+    "min_trading_days": 1,
+    "account_type": "Instant"
   },
   {
     "firm_id": "f_nexgen",
@@ -7262,7 +7268,8 @@
     "consistency_funded": 30,
     "base_cost_to_funded": 399,
     "max_funded_accounts": 3,
-    "min_trading_days": 1
+    "min_trading_days": 1,
+    "account_type": "Instant"
   },
   {
     "firm_id": "f_nexgen",
@@ -7291,7 +7298,8 @@
     "consistency_funded": 30,
     "base_cost_to_funded": 499,
     "max_funded_accounts": 3,
-    "min_trading_days": 1
+    "min_trading_days": 1,
+    "account_type": "Instant"
   },
   {
     "firm_id": "f_nexgen",
@@ -7320,7 +7328,8 @@
     "consistency_funded": 30,
     "base_cost_to_funded": 599,
     "max_funded_accounts": 3,
-    "min_trading_days": 1
+    "min_trading_days": 1,
+    "account_type": "Instant"
   },
   {
     "firm_id": "f_nexgen",
@@ -7349,6 +7358,7 @@
     "consistency_funded": 30,
     "base_cost_to_funded": 799,
     "max_funded_accounts": 3,
-    "min_trading_days": 1
+    "min_trading_days": 1,
+    "account_type": "Instant"
   }
 ]
