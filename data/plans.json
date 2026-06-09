@@ -7083,7 +7083,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": null,
     "total_cost_to_funded": null,
-    "active_discount_pct": 80
+    "active_discount_pct": 80,
+    "consistency_eval": null,
+    "consistency_funded": null
   },
   {
     "firm_id": "f_nexgen",
@@ -7107,7 +7109,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": null,
     "total_cost_to_funded": null,
-    "active_discount_pct": 80
+    "active_discount_pct": 80,
+    "consistency_eval": null,
+    "consistency_funded": null
   },
   {
     "firm_id": "f_nexgen",
@@ -7131,7 +7135,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": null,
     "total_cost_to_funded": null,
-    "active_discount_pct": 80
+    "active_discount_pct": 80,
+    "consistency_eval": null,
+    "consistency_funded": null
   },
   {
     "firm_id": "f_nexgen",
@@ -7155,7 +7161,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": null,
     "total_cost_to_funded": null,
-    "active_discount_pct": 80
+    "active_discount_pct": 80,
+    "consistency_eval": null,
+    "consistency_funded": null
   },
   {
     "firm_id": "f_nexgen",
@@ -7179,7 +7187,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": null,
     "total_cost_to_funded": null,
-    "active_discount_pct": 80
+    "active_discount_pct": 80,
+    "consistency_eval": null,
+    "consistency_funded": null
   },
   {
     "firm_id": "f_nexgen",
@@ -7203,7 +7213,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": 7,
     "total_cost_to_funded": 299,
-    "active_discount_pct": 0
+    "active_discount_pct": 0,
+    "consistency_eval": null,
+    "consistency_funded": 40
   },
   {
     "firm_id": "f_nexgen",
@@ -7227,7 +7239,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": 7,
     "total_cost_to_funded": 399,
-    "active_discount_pct": 0
+    "active_discount_pct": 0,
+    "consistency_eval": null,
+    "consistency_funded": 40
   },
   {
     "firm_id": "f_nexgen",
@@ -7251,7 +7265,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": 7,
     "total_cost_to_funded": 499,
-    "active_discount_pct": 0
+    "active_discount_pct": 0,
+    "consistency_eval": null,
+    "consistency_funded": 40
   },
   {
     "firm_id": "f_nexgen",
@@ -7275,7 +7291,9 @@
     "payout_frequency": "weekly",
     "first_payout_days": 7,
     "total_cost_to_funded": 599,
-    "active_discount_pct": 0
+    "active_discount_pct": 0,
+    "consistency_eval": null,
+    "consistency_funded": 40
   },
   {
     "firm_id": "f_nexgen",
@@ -7299,6 +7317,8 @@
     "payout_frequency": "weekly",
     "first_payout_days": 7,
     "total_cost_to_funded": 799,
-    "active_discount_pct": 0
+    "active_discount_pct": 0,
+    "consistency_eval": null,
+    "consistency_funded": 40
   }
 ]
