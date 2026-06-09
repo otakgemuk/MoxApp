@@ -7082,7 +7082,7 @@
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": null,
+    "total_cost_to_funded": 149,
     "active_discount_pct": 80,
     "consistency_eval": null,
     "consistency_funded": null
@@ -7108,7 +7108,7 @@
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": null,
+    "total_cost_to_funded": 249,
     "active_discount_pct": 80,
     "consistency_eval": null,
     "consistency_funded": null
@@ -7134,7 +7134,7 @@
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": null,
+    "total_cost_to_funded": 299,
     "active_discount_pct": 80,
     "consistency_eval": null,
     "consistency_funded": null
@@ -7160,7 +7160,7 @@
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": null,
+    "total_cost_to_funded": 319,
     "active_discount_pct": 80,
     "consistency_eval": null,
     "consistency_funded": null
@@ -7186,7 +7186,7 @@
     "is_one_time": 0,
     "payout_frequency": "weekly",
     "first_payout_days": null,
-    "total_cost_to_funded": null,
+    "total_cost_to_funded": 399,
     "active_discount_pct": 80,
     "consistency_eval": null,
     "consistency_funded": null
