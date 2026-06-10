@@ -1,9 +1,7 @@
+# One-shot workflow — null consistency fix already applied on 2026-06-10. Safe to delete.
 name: Null Consistency To Zero
 
 on:
-  push:
-    paths:
-      - 'scripts/null_consistency_to_zero.py'
   workflow_dispatch:
 
 permissions:
@@ -21,5 +19,5 @@ jobs:
           git config user.name "MoxApp Bot"
           git config user.email "bot@moxapp.dev"
           git add data/plans.json frontend/public/plans.json frontend/data.json
-          git diff --cached --quiet || git commit -m "fix: set null consistency_eval/consistency_funded to 0 across all data copies [skip ci]"
+          git diff --cached --quiet || git commit -m "fix: null consistency to 0 [skip ci]"
           git push
