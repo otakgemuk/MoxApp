@@ -3,7 +3,7 @@ name: Fix TPT Discount 40
 on:
   push:
     paths:
-      - '.github/workflows/fix-tpt-discount.yml'
+      - 'scripts/fix_tpt_discount.py'
   workflow_dispatch:
 
 permissions:
@@ -14,68 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Patch TPT plans to 40% discount in all data copies
-        run: |
-          python3 << 'EOF'
-          import json, os
-
-          def patch(path):
-              if not os.path.exists(path):
-                  print(f'skip {path} (missing)')
-                  return
-              with open(path) as f:
-                  plans = json.load(f)
-              n = 0
-              for p in plans:
-                  if p.get('firm_id') == 'take_profit_trad':
-                      ev = p.get('eval_fee') or 0
-                      act = p.get('activation_fee') or 0
-                      p['active_discount_pct'] = 40
-                      p['has_discount'] = 1
-                      total = round((ev + act) * 0.6, 2)
-                      p['total_cost_to_funded'] = int(total) if total == int(total) else total
-                      p['base_cost_to_funded'] = ev + act
-                      n += 1
-              with open(path, 'w') as f:
-                  json.dump(plans, f, indent=2)
-                  f.write('\n')
-              tpt = [p for p in plans if p.get('firm_id') == 'take_profit_trad']
-              print(f'{path}: {len(plans)} plans total, {n} TPT patched to 40%')
-              for p in tpt:
-                  print('  ', p['plan_id'], p['account_type'], 'eval', p['eval_fee'], 'total', p['total_cost_to_funded'])
-              assert n == 5, f'{path}: expected 5 TPT plans, found {n}'
-              assert all(p['account_type'] == 'Standard' for p in tpt), f'{path}: non-Standard TPT plan found'
-          EOF
-          python3 -c "
-import json, os
-for path in ['data/plans.json', 'frontend/public/plans.json', 'frontend/data.json']:
-    if not os.path.exists(path):
-        print('skip', path); continue
-    plans = json.load(open(path))
-    n = 0
-    for p in plans:
-        if p.get('firm_id') == 'take_profit_trad':
-            ev = p.get('eval_fee') or 0
-            act = p.get('activation_fee') or 0
-            p['active_discount_pct'] = 40
-            p['has_discount'] = 1
-            total = round((ev + act) * 0.6, 2)
-            p['total_cost_to_funded'] = int(total) if total == int(total) else total
-            p['base_cost_to_funded'] = ev + act
-            n += 1
-    json.dump(plans, open(path, 'w'), indent=2)
-    open(path, 'a').write('\n')
-    tpt = [p for p in plans if p.get('firm_id') == 'take_profit_trad']
-    print(path, ':', len(plans), 'plans,', n, 'TPT patched')
-    for p in tpt:
-        print('  ', p['plan_id'], p['account_type'], 'eval', p['eval_fee'], 'total', p['total_cost_to_funded'])
-    assert n == 5, path + ': expected 5 TPT plans, found ' + str(n)
-    assert all(p['account_type'] == 'Standard' for p in tpt), path + ': non-Standard TPT plan found'
-"
+      - name: Patch TPT plans to 40 percent
+        run: python3 scripts/fix_tpt_discount.py
       - name: Commit and push
         run: |
-          git config user.name 'MoxApp Bot'
-          git config user.email 'bot@moxapp.dev'
+          git config user.name "MoxApp Bot"
+          git config user.email "bot@moxapp.dev"
           git add data/plans.json frontend/public/plans.json frontend/data.json
-          git diff --cached --quiet && echo 'No changes' || git commit -m 'fix: TPT discount 30% -> 40%, 5 Standard plans only, recalc totals [skip ci]'
+          git diff --cached --quiet || git commit -m "fix: TPT discount 30% -> 40%, 5 Standard plans only, recalc totals [skip ci]"
           git push
