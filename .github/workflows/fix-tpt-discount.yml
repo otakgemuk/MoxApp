@@ -1,9 +1,7 @@
+# One-shot workflow — TPT 40% fix already applied on 2026-06-10. Safe to delete.
 name: Fix TPT Discount 40
 
 on:
-  push:
-    paths:
-      - 'scripts/fix_tpt_discount.py'
   workflow_dispatch:
 
 permissions:
@@ -21,5 +19,5 @@ jobs:
           git config user.name "MoxApp Bot"
           git config user.email "bot@moxapp.dev"
           git add data/plans.json frontend/public/plans.json frontend/data.json
-          git diff --cached --quiet || git commit -m "fix: TPT discount 30% -> 40%, 5 Standard plans only, recalc totals [skip ci]"
+          git diff --cached --quiet || git commit -m "fix: TPT discount recalc [skip ci]"
           git push
