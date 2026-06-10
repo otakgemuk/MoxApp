@@ -205,23 +205,23 @@ const columns: ColumnDef<PlanRow, any>[] = [
     size: 90,
   }),
 
-  // 10. Consistency Eval (percentage)
+  // 10. Consistency Eval (percentage) — 0 is a real value ("no consistency rule"), only null/undefined means unknown
   columnHelper.accessor("consistency_eval", {
     header: "ConsEval",
     cell: (info) => {
       const v = info.getValue();
-      if (v != null && v > 0) return <span className="text-gray-300">{v}%</span>;
+      if (v != null) return <span className="text-gray-300">{v}%</span>;
       return <span className="text-gray-500">—</span>;
     },
     size: 120,
   }),
 
-  // 11. Consistency Funded (percentage)
+  // 11. Consistency Funded (percentage) — 0 is a real value ("no consistency rule"), only null/undefined means unknown
   columnHelper.accessor("consistency_funded", {
     header: "ConsFunded",
     cell: (info) => {
       const v = info.getValue();
-      if (v != null && v > 0) return <span className="text-gray-300">{v}%</span>;
+      if (v != null) return <span className="text-gray-300">{v}%</span>;
       return <span className="text-gray-500">—</span>;
     },
     size: 130,
