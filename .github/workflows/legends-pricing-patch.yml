@@ -1,0 +1,44 @@
+name: Legends Pricing Patch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/legends_patch.py'
+      - '.github/workflows/legends-pricing-patch.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legends-pricing-patch
+  cancel-in-progress: false
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply Legends pricing patch
+        run: |
+          test -f scripts/legends_patch.py || { echo "patch script absent, nothing to do"; exit 0; }
+          python scripts/legends_patch.py
+
+      - name: Commit data changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/plans.json frontend/public/plans.json frontend/data.json; then
+            echo "No data changes to commit (idempotent re-run)."
+            exit 0
+          fi
+          git add data/plans.json frontend/public/plans.json frontend/data.json
+          git commit -m "Legends pricing: Elite 30% / Apprentice 50% + sync canonical totals across 3 data copies"
+          git push
