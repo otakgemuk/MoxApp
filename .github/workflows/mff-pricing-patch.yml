@@ -1,0 +1,44 @@
+name: MFF Pricing Patch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/mff_patch.py'
+      - '.github/workflows/mff-pricing-patch.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mff-pricing-patch
+  cancel-in-progress: false
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply MFF pricing patch
+        run: |
+          test -f scripts/mff_patch.py || { echo "patch script absent, nothing to do"; exit 0; }
+          python scripts/mff_patch.py
+
+      - name: Commit data changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/plans.json frontend/public/plans.json frontend/data.json; then
+            echo "No data changes to commit (idempotent re-run)."
+            exit 0
+          fi
+          git add data/plans.json frontend/public/plans.json frontend/data.json
+          git commit -m "MFF pricing: Builders 40%, Rapid 20%, Pro 30% (fix 4 off-spec rows across data copies)"
+          git push
