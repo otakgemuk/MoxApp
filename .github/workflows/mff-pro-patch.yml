@@ -1,0 +1,44 @@
+name: MFF Pro Patch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/mff_pro_patch.py'
+      - '.github/workflows/mff-pro-patch.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mff-pro-patch
+  cancel-in-progress: false
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply MFF Pro patch
+        run: |
+          test -f scripts/mff_pro_patch.py || { echo "patch script absent, nothing to do"; exit 0; }
+          python scripts/mff_pro_patch.py
+
+      - name: Commit data changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/plans.json frontend/public/plans.json frontend/data.json; then
+            echo "No data changes to commit (idempotent re-run)."
+            exit 0
+          fi
+          git add data/plans.json frontend/public/plans.json frontend/data.json
+          git commit -m "MFF Pro: 30% -> 50% weekly promo (all 3 Pro plans)"
+          git push
