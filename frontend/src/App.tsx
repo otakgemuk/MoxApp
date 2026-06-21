@@ -6,6 +6,7 @@
 
 import { useState, useCallback } from "react";
 import type { SortingState } from "@tanstack/react-table";
+import { Analytics } from "@vercel/analytics/react";
 import FilterBar from "./components/FilterBar";
 import PlanTable from "./components/PlanTable";
 import ComparisonCard from "./components/ComparisonCard";
@@ -274,6 +275,7 @@ export default function App() {
           </div>
         )}
       </main>
+      <Analytics />
     </div>
   );
 }
