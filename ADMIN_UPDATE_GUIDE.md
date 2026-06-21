@@ -1,103 +1,67 @@
 # Admin Data Update Guide
 
-There are **3 ways** to update pricing data in Funded Futures Network:
+## The one rule
+
+**`data/plans.json` is the only data file that matters.**
+
+`vite.config.ts` sets `publicDir: ../data`, so Vite serves `data/plans.json` at
+`/plans.json`. Every part of the app — `usePlans.ts`, `App.tsx`, `Admin.tsx` —
+fetches `./plans.json` at runtime. There is no other source.
+
+Edit that one file, push to `main`, Vercel rebuilds in ~1–2 minutes. Done.
+
+> **Do NOT copy the file anywhere.** Older versions of this guide told you to
+> `cp` into `frontend/data.json`, `frontend/public/plans.json`, and
+> `frontend/dist/plans.json`. Those paths are **not served** and have been
+> removed. Keeping copies in sync was the only thing that ever caused "drift."
+> `frontend/dist/` and `frontend/src/lib/staticData.ts` are build output —
+> gitignored, regenerated, never edited by hand.
 
 ---
 
-## Method 1: Using Admin Page + Update Script (Recommended)
+## Method 1: In-app Admin page (recommended)
 
-**Best for:** Quick pricing updates, one-off changes
+**Best for:** quick pricing edits, one or a few plans.
 
-### Steps:
+1. Open `https://mox-app.vercel.app/admin.html`.
+2. Edit fields inline (`eval_fee`, `activation_fee`, `active_discount_pct`, etc.).
+3. The page commits the updated array straight to `data/plans.json` via the
+   GitHub API (GET sha → PUT), then Vercel redeploys automatically.
 
-1. **Open admin page**: `https://otakgemuk.github.io/MoxApp/admin.html`
-   - Password: `propfirm2026`
-
-2. **Edit data**:
-   - Click on a plan to edit
-   - Change `eval_fee`, `activation_fee`, `active_discount_pct`, etc.
-   - Click "Save" or use the inline editors
-
-3. **Export JSON**:
-   - Click **"📋 Export JSON"** button
-   - JSON copies to clipboard
-   - Save to your computer: `~/Downloads/plans.json`
-
-4. **Update GitHub** (using the helper script):
-   ```bash
-   cd MoxApp
-   ./admin-update.sh ~/Downloads/plans.json "Update Funded Futures Network pricing"
-   ```
-
-5. **Wait for deployment**:
-   - GitHub Actions automatically builds and deploys
-   - Site updates in **1-2 minutes**
+> **Security note (Phase 2 TODO):** the page is gated by a client-side password,
+> which is not real protection, and it needs a GitHub token to write. The planned
+> fix is to move the write behind a Vercel serverless function that holds the
+> token as a server env var, so no secret ships to the browser. Until then, never
+> paste a long-lived PAT into the page on a shared machine.
 
 ---
 
-## Method 2: Direct Data File Update (Manual)
+## Method 2: Edit `data/plans.json` directly (bulk changes)
 
-**Best for:** Bulk updates, multiple firms
+**Best for:** many plans, new firms, audits.
 
-### Steps:
-
-1. **Edit data file directly**:
-   - Open `data/plans.json` in your editor
-   - Update values for Funded Futures Network plans
-   - Save file
-
-2. **Sync to all locations**:
-   ```bash
-   cp data/plans.json frontend/data.json
-   cp data/plans.json frontend/dist/plans.json
-   cp data/plans.json frontend/public/plans.json
-   ```
-
-3. **Regenerate static data**:
-   ```bash
-   node -e "
-     const data = require('./data/plans.json');
-     const ts = '// Auto-generated\n\nexport const STATIC_PLANS = ' + JSON.stringify(data, null, 2) + ';\n';
-     require('fs').writeFileSync('./frontend/src/lib/staticData.ts', ts);
-   "
-   ```
-
-4. **Commit and push**:
-   ```bash
-   git add data/plans.json frontend/data.json frontend/src/lib/staticData.ts frontend/dist/plans.json
-   git commit -m "data: Update Funded Futures Network pricing"
-   git push origin main
-   ```
-
-5. **Wait for deployment** (1-2 minutes)
-
+1. Open `data/plans.json` on GitHub (or via MCP) and edit the values.
+2. Commit to `main`. That's the whole step — no copying, no script.
+3. Wait ~1–2 minutes, then hard-refresh (`Ctrl/Cmd+Shift+R`).
 
 ---
 
-## Funded Futures Network Pricing Reference
+## Total-cost formula (validate before every push)
 
-Current pricing structure (as of latest update):
+`total_cost_to_funded` must always match one of these three branches:
 
-| Account Size | Standard OG | Standard MAX | Express OG | Express MAX |
-|---|---|---|---|---|
-| 25K | $68 | $135 | ~$75 | ~$135 |
-| 50K | $80 | $160 | ~$80 | ~$160 |
-| 100K | $158 | $315 | ~$158 | ~$315 |
-| 150K | $183 | $365 | ~$183 | ~$365 |
-| 250K | $295 | $590 | ~$295 | ~$590 |
+1. **Standard:** `total = (eval_fee + activation_fee) × (1 − discount/100)`
+2. **NexGen Evaluation exception:** discount applies to `eval_fee` only;
+   activation paid separately at full price —
+   `total = (eval_fee × (1 − discount/100)) + activation_fee`
+3. **Instant / one-time:** `total = eval_fee` (no activation fee)
 
-**Note**: All prices shown are **base prices** (before 50% discount).
-Final prices = base × 0.5
-
-Example:
-- Standard MAX 50K base: $160
-- With 50% discount: $80 (final price shown to users)
+Update `active_discount_pct`, `has_discount`, `base_cost_to_funded`, and
+`total_cost_to_funded` together. Plan count in = plan count out.
 
 ---
 
-## Data Structure
-
-Each plan object contains:
+## Data schema (per object in `data/plans.json`)
 
 ```json
 {
@@ -110,59 +74,33 @@ Each plan object contains:
   "activation_fee": 0.0,
   "monthly_fee": 0.0,
   "active_discount_pct": 50,
-  "total_cost_to_funded": 80.0,
-  // ... other fields
+  "total_cost_to_funded": 80.0
 }
 ```
 
-**Key fields**:
-- `eval_fee`: Cost to start evaluation
-- `activation_fee`: One-time activation cost
-- `active_discount_pct`: Discount percentage (0-100)
-- `total_cost_to_funded`: Final cost = (eval + activation) × (1 - discount/100)
+Key fields: `eval_fee` (cost to start eval), `activation_fee` (one-time),
+`active_discount_pct` (0–100), `total_cost_to_funded` (computed per the formula
+above). Full field list lives in the `PlanRow` interface in
+`frontend/src/hooks/usePlans.ts`.
+
+---
+
+## Deployment
+
+Hosting is **Vercel only** (`vercel.json`). Render and GitHub Pages configs have
+been removed. Build: `cd frontend && npm install && npm run build`, output
+`frontend/dist`. `data/plans.json` is served at the site root as `/plans.json`.
 
 ---
 
 ## Troubleshooting
 
-### Admin page shows old data
-- Clear browser cache (Ctrl+Shift+R)
-- Hard refresh: Cmd+Shift+R (Mac) or Ctrl+Shift+R (Windows/Linux)
+**Changes not showing:** confirm the commit landed on `main`, check the Vercel
+deployment reached READY on that SHA, then hard-refresh.
 
-### Changes don't appear on live site
-1. Check GitHub Actions status
-2. Verify file was pushed to `main` branch
-3. Wait 1-2 minutes for deployment to complete
-4. Force refresh your browser
-
-### Need to revert changes
-```bash
-git log --oneline  # Find previous commit
-git revert <commit-hash>
-git push origin main
-```
+**Revert:** use GitHub's commit history → "Revert" on the bad commit, or restore
+the previous `data/plans.json` from history.
 
 ---
 
-## Git Workflow Reference
-
-```bash
-# View status
-git status
-
-# Stage all changes
-git add -A
-
-# Commit with message
-git commit -m "fix: Update FFN pricing"
-
-# Push to GitHub
-git push origin main
-
-# View commit history
-git log --oneline -10
-```
-
----
-
-Need help? Check the admin page or create a GitHub issue.
+Single file. Single push. No drift.
