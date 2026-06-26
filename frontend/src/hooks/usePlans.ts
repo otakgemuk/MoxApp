@@ -73,6 +73,8 @@ export interface PlanRow {
   first_payout_days?: number | null;
   // Tiered discount structure
   discount_tiers?: DiscountTier[] | null;
+  // Flag for tiered rows (when discount is split into tiers)
+  _is_tiered_row?: boolean;
 }
 
 

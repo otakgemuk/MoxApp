@@ -22,6 +22,14 @@ import { BuyNowButton } from "./BuyNowButton";
 const columnHelper = createColumnHelper<PlanRow>();
 
 const columns: ColumnDef<PlanRow, any>[] = [
+  // 0. Buy Now — Redirect to affiliate link (FIRST COLUMN)
+  columnHelper.display({
+    id: "buy_now",
+    header: "Action",
+    cell: (info) => <BuyNowButton plan={info.row.original} />,
+    size: 100,
+  }),
+
   // 1. Firm
   columnHelper.accessor("firm_name", {
     header: "Firm",
@@ -143,7 +151,15 @@ const columns: ColumnDef<PlanRow, any>[] = [
     header: "Price After Discount",
     cell: (info) => {
       const evalFee = info.getValue();
-      const pct = info.row.original.active_discount_pct;
+      const plan = info.row.original;
+      const pct = plan.active_discount_pct;
+      
+      // For tiered rows, eval_fee is ALREADY the final discounted price
+      if (plan._is_tiered_row) {
+        return formatUSD(evalFee);
+      }
+      
+      // For regular rows, apply the discount
       if (pct > 0) {
         const discounted = evalFee * (1 - pct / 100);
         return formatUSD(discounted);
@@ -151,8 +167,14 @@ const columns: ColumnDef<PlanRow, any>[] = [
       return formatUSD(evalFee);
     },
     sortingFn: (rowA, rowB) => {
-      const aPrice = rowA.original.eval_fee * (1 - (rowA.original.active_discount_pct || 0) / 100);
-      const bPrice = rowB.original.eval_fee * (1 - (rowB.original.active_discount_pct || 0) / 100);
+      const aFee = rowA.original.eval_fee;
+      const aPct = rowA.original.active_discount_pct || 0;
+      const aPrice = rowA.original._is_tiered_row ? aFee : aFee * (1 - aPct / 100);
+      
+      const bFee = rowB.original.eval_fee;
+      const bPct = rowB.original.active_discount_pct || 0;
+      const bPrice = rowB.original._is_tiered_row ? bFee : bFee * (1 - bPct / 100);
+      
       return aPrice - bPrice;
     },
     size: 130,
@@ -236,14 +258,6 @@ const columns: ColumnDef<PlanRow, any>[] = [
       return <span className="text-gray-500">—</span>;
     },
     size: 130,
-  }),
-
-  // 12. Buy Now — Redirect to affiliate link
-  columnHelper.display({
-    id: "buy_now",
-    header: "Action",
-    cell: (info) => <BuyNowButton plan={info.row.original} />,
-    size: 120,
   }),
 
 ];
