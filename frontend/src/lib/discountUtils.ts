@@ -34,7 +34,7 @@ export function analyzeDiscountPattern(plan: {
   account_type: string;
   total_cost_to_funded: number;
 }): DiscountPattern {
-  const { eval_fee, activation_fee, active_discount_pct, firm_name, total_cost_to_funded } = plan;
+  const { active_discount_pct, firm_name, account_type } = plan;
 
   // NO DISCOUNT
   if (active_discount_pct === 0) {

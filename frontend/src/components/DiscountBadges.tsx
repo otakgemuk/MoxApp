@@ -135,7 +135,7 @@ export const DiscountTooltip: React.FC<DiscountTooltipProps> = ({ plan }) => {
   const breakdown = calculateDiscountBreakdown(plan);
 
   // For split discounts (NexGen case with separate eval/setup)
-  if ('evalBefore' in breakdown && 'setupBefore' in breakdown) {
+  if ('evalBefore' in breakdown && breakdown.evalBefore !== undefined && 'setupBefore' in breakdown && breakdown.setupBefore !== undefined) {
     return (
       <div className="rounded-lg bg-slate-900 p-3 text-xs text-gray-300 space-y-2 border border-slate-700">
         <div className="text-sm font-semibold text-white mb-2">Discount Breakdown</div>
@@ -143,41 +143,41 @@ export const DiscountTooltip: React.FC<DiscountTooltipProps> = ({ plan }) => {
         <div className="space-y-1 border-b border-slate-700 pb-2">
           <div className="flex justify-between">
             <span>Eval Fee:</span>
-            <span className="text-gray-400">${breakdown.evalBefore.toFixed(0)}</span>
+            <span className="text-gray-400">${(breakdown as any).evalBefore.toFixed(0)}</span>
           </div>
           <div className="flex justify-between text-green-400">
             <span>After -80%:</span>
-            <span>${breakdown.evalAfter.toFixed(2)}</span>
+            <span>${(breakdown as any).evalAfter.toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-green-500 text-[10px]">
             <span>Save:</span>
-            <span>${breakdown.evalSavings.toFixed(2)}</span>
+            <span>${(breakdown as any).evalSavings.toFixed(2)}</span>
           </div>
         </div>
 
         <div className="space-y-1 border-b border-slate-700 pb-2">
           <div className="flex justify-between">
             <span>Setup Fee:</span>
-            <span className="text-gray-400">${breakdown.setupBefore.toFixed(0)}</span>
+            <span className="text-gray-400">${(breakdown as any).setupBefore.toFixed(0)}</span>
           </div>
           <div className="flex justify-between text-green-400">
             <span>After -50%:</span>
-            <span>${breakdown.setupAfter.toFixed(2)}</span>
+            <span>${(breakdown as any).setupAfter.toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-green-500 text-[10px]">
             <span>Save:</span>
-            <span>${breakdown.setupSavings.toFixed(2)}</span>
+            <span>${(breakdown as any).setupSavings.toFixed(2)}</span>
           </div>
         </div>
 
         <div className="space-y-1 pt-2 border-t border-slate-700">
           <div className="flex justify-between font-semibold text-white">
             <span>Total:</span>
-            <span className="text-blue-300">${breakdown.totalAfter.toFixed(2)}</span>
+            <span className="text-blue-300">${(breakdown as any).totalAfter.toFixed(2)}</span>
           </div>
           <div className="flex justify-between text-emerald-400 text-[10px]">
             <span>Total Savings:</span>
-            <span>${breakdown.totalSavings.toFixed(2)}</span>
+            <span>${(breakdown as any).totalSavings.toFixed(2)}</span>
           </div>
         </div>
       </div>
@@ -190,15 +190,15 @@ export const DiscountTooltip: React.FC<DiscountTooltipProps> = ({ plan }) => {
       <div className="text-sm font-semibold text-white mb-2">Discount Applied</div>
       <div className="flex justify-between">
         <span>Original Cost:</span>
-        <span className="text-gray-400">${breakdown.costBefore.toFixed(2)}</span>
+        <span className="text-gray-400">${(breakdown as any).costBefore.toFixed(2)}</span>
       </div>
       <div className="flex justify-between text-green-400">
         <span>Your Price:</span>
-        <span>${breakdown.costAfter.toFixed(2)}</span>
+        <span>${(breakdown as any).costAfter.toFixed(2)}</span>
       </div>
       <div className="flex justify-between text-emerald-400 text-[10px]">
         <span>You Save:</span>
-        <span>${breakdown.savings.toFixed(2)}</span>
+        <span>${(breakdown as any).savings.toFixed(2)}</span>
       </div>
     </div>
   );
