@@ -15,6 +15,7 @@ import { useState, useEffect } from "react";
 import type { PlanRow } from "../hooks/usePlans";
 import { formatUSD, DRAWDOWN_STYLES } from "../lib/utils";
 import { DiscountBadges } from "./DiscountBadges";
+import { BuyNowButton } from "./BuyNowButton";
 
 // ── Column definitions ─────────────────────────────────────
 
@@ -235,6 +236,14 @@ const columns: ColumnDef<PlanRow, any>[] = [
       return <span className="text-gray-500">—</span>;
     },
     size: 130,
+  }),
+
+  // 12. Buy Now — Redirect to affiliate link
+  columnHelper.display({
+    id: "buy_now",
+    header: "Action",
+    cell: (info) => <BuyNowButton plan={info.row.original} />,
+    size: 120,
   }),
 
 ];
