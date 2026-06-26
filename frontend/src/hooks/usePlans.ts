@@ -85,32 +85,11 @@ const SORT_KEYS: Record<string, (row: PlanRow) => number | string> = {
   drawdown_amount:   (r) => r.drawdown_amount,
   daily_loss_limit:  (r) => r.daily_loss_limit,
   profit_target:     (r) => r.profit_target,
-  eval_fee:          (r) => {
-    // For tiered discounts, use the conservative price (last tier = lowest discount)
-    if (r.discount_tiers && r.discount_tiers.length > 0) {
-      const lastTier = r.discount_tiers[r.discount_tiers.length - 1];
-      return lastTier.eval_price ?? r.eval_fee;
-    }
-    return r.eval_fee * (1 - (r.active_discount_pct || 0) / 100);
-  },
+  eval_fee:          (r) => r.eval_fee,
   activation_fee:    (r) => r.activation_fee,
   base_cost:            (r) => r.base_cost_to_funded,
-  total_cost:           (r) => {
-    // For tiered discounts, use the conservative total (last tier)
-    if (r.discount_tiers && r.discount_tiers.length > 0) {
-      const lastTier = r.discount_tiers[r.discount_tiers.length - 1];
-      return lastTier.total_price ?? r.total_cost_to_funded;
-    }
-    return r.total_cost_to_funded;
-  },
-  total_cost_to_funded: (r) => {
-    // For tiered discounts, use the conservative total (last tier)
-    if (r.discount_tiers && r.discount_tiers.length > 0) {
-      const lastTier = r.discount_tiers[r.discount_tiers.length - 1];
-      return lastTier.total_price ?? r.total_cost_to_funded;
-    }
-    return r.total_cost_to_funded;
-  },
+  total_cost:           (r) => r.total_cost_to_funded,
+  total_cost_to_funded: (r) => r.total_cost_to_funded,
   profit_split:      (r) => r.profit_split ?? -1,
   trustpilot:        (r) => r.trustpilot ?? 0,
 };

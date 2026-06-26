@@ -8,7 +8,7 @@
  *   <DiscountBadges plan={row.original} />
  */
 
-import React, { useState } from 'react';
+import React from 'react';
 import {
   analyzeDiscountPattern,
   getDiscountBadgeClasses,
@@ -31,44 +31,6 @@ interface DiscountBadgesProps {
 }
 
 /**
- * Tiered discount display component
- * Shows multiple discount tiers with prices that apply sequentially
- */
-const TieredDiscountBadge: React.FC<{ tiers: DiscountTier[] }> = ({ tiers }) => {
-  const [expanded, setExpanded] = useState(false);
-  const sortedTiers = [...tiers].sort((a, b) => a.tier - b.tier);
-
-  return (
-    <div className="flex flex-col gap-1">
-      <button
-        onClick={() => setExpanded(!expanded)}
-        className="inline-flex items-center gap-1 rounded-full bg-blue-500/20 text-blue-300 hover:bg-blue-500/30 transition px-2 py-1 text-xs font-medium cursor-pointer"
-      >
-        <span>📊 Tiered Discount</span>
-        <span className="text-[10px]">{expanded ? '−' : '+'}</span>
-      </button>
-      {expanded && (
-        <div className="rounded-lg bg-blue-500/10 border border-blue-500/30 p-2 space-y-2">
-          {sortedTiers.map((tier) => (
-            <div key={tier.tier} className="space-y-0.5">
-              <div className="flex justify-between items-center text-xs">
-                <span className="font-semibold text-blue-200">{tier.label}</span>
-                <span className="font-semibold text-blue-400">−{tier.pct}%</span>
-              </div>
-              {tier.total_price !== undefined && (
-                <div className="text-[11px] text-blue-300 ml-2">
-                  Total cost: <span className="font-semibold text-blue-400">${tier.total_price.toFixed(2)}</span>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-};
-
-/**
  * Main component: DiscountBadges
  * Renders discount information in badge format
  */
@@ -77,11 +39,6 @@ export const DiscountBadges: React.FC<DiscountBadgesProps> = ({
   compact = false,
   showDescription = false,
 }) => {
-  // Check for tiered discount first
-  if (plan.discount_tiers && plan.discount_tiers.length > 0) {
-    return <TieredDiscountBadge tiers={plan.discount_tiers} />;
-  }
-
   const pattern = analyzeDiscountPattern(plan);
 
   // No discount case
