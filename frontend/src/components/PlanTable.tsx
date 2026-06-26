@@ -14,6 +14,7 @@ import {
 import { useState } from "react";
 import type { PlanRow } from "../hooks/usePlans";
 import { formatUSD, DRAWDOWN_STYLES } from "../lib/utils";
+import { DiscountBadges } from "./DiscountBadges";
 
 // ── Column definitions ─────────────────────────────────────
 
@@ -122,29 +123,12 @@ const columns: ColumnDef<PlanRow, any>[] = [
     size: 120,
   }),
 
-  // 4. After Discount (eval fee with discount applied, or full price if no discount)
-  columnHelper.accessor("eval_fee", {
-    id: "after_discount",
-    header: "After Discount",
-    cell: (info) => {
-      const evalFee = info.getValue();
-      const pct = info.row.original.active_discount_pct;
-      if (pct > 0) {
-        const discounted = evalFee * (1 - pct / 100);
-        return (
-          <span className="text-green-400 font-medium">
-            {formatUSD(discounted)} <span className="text-xs text-green-400/70">(-{pct}%)</span>
-          </span>
-        );
-      }
-      return <span className="text-gray-300">{formatUSD(evalFee)}</span>;
-    },
-    sortingFn: (rowA, rowB) => {
-      const a = rowA.original.eval_fee * (1 - (rowA.original.active_discount_pct || 0) / 100);
-      const b = rowB.original.eval_fee * (1 - (rowB.original.active_discount_pct || 0) / 100);
-      return a - b;
-    },
-    size: 120,
+  // 4. Discount Display (with split discount support for NexGen and others)
+  columnHelper.accessor("active_discount_pct", {
+    id: "discount_display",
+    header: "Discount",
+    cell: (info) => <DiscountBadges plan={info.row.original} />,
+    size: 160,
   }),
 
   // 5. Total = Setup Fee + After Discount
