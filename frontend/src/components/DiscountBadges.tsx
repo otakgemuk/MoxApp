@@ -12,7 +12,6 @@ import React from 'react';
 import {
   analyzeDiscountPattern,
   getDiscountBadgeClasses,
-  calculateDiscountBreakdown,
   type DiscountBadge as DiscountBadgeType,
 } from '../lib/discountUtils';
 
