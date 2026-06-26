@@ -32,7 +32,7 @@ interface DiscountBadgesProps {
 
 /**
  * Tiered discount display component
- * Shows multiple discount tiers that apply sequentially
+ * Shows multiple discount tiers with prices that apply sequentially
  */
 const TieredDiscountBadge: React.FC<{ tiers: DiscountTier[] }> = ({ tiers }) => {
   const [expanded, setExpanded] = useState(false);
@@ -48,11 +48,18 @@ const TieredDiscountBadge: React.FC<{ tiers: DiscountTier[] }> = ({ tiers }) => 
         <span className="text-[10px]">{expanded ? '−' : '+'}</span>
       </button>
       {expanded && (
-        <div className="rounded-lg bg-blue-500/10 border border-blue-500/30 p-2 space-y-1">
+        <div className="rounded-lg bg-blue-500/10 border border-blue-500/30 p-2 space-y-2">
           {sortedTiers.map((tier) => (
-            <div key={tier.tier} className="flex justify-between items-center text-xs">
-              <span className="text-blue-200">{tier.label}</span>
-              <span className="font-semibold text-blue-400">−{tier.pct}%</span>
+            <div key={tier.tier} className="space-y-0.5">
+              <div className="flex justify-between items-center text-xs">
+                <span className="font-semibold text-blue-200">{tier.label}</span>
+                <span className="font-semibold text-blue-400">−{tier.pct}%</span>
+              </div>
+              {tier.total_price !== undefined && (
+                <div className="text-[11px] text-blue-300 ml-2">
+                  Total cost: <span className="font-semibold text-blue-400">${tier.total_price.toFixed(2)}</span>
+                </div>
+              )}
             </div>
           ))}
         </div>

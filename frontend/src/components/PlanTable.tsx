@@ -141,8 +141,26 @@ const columns: ColumnDef<PlanRow, any>[] = [
     id: "price_after_discount",
     header: "Price After Discount",
     cell: (info) => {
+      const plan = info.row.original;
       const evalFee = info.getValue();
-      const pct = info.row.original.active_discount_pct;
+      
+      // Show tiered prices if available
+      if (plan.discount_tiers && plan.discount_tiers.length > 0) {
+        const sortedTiers = [...plan.discount_tiers].sort((a, b) => a.tier - b.tier);
+        return (
+          <div className="space-y-0.5">
+            {sortedTiers.map((tier) => (
+              <div key={tier.tier} className="text-xs flex justify-between">
+                <span className="text-gray-400">{tier.label}:</span>
+                <span className="font-semibold text-white">{formatUSD(tier.eval_price ?? evalFee)}</span>
+              </div>
+            ))}
+          </div>
+        );
+      }
+      
+      // Standard single discount
+      const pct = plan.active_discount_pct;
       if (pct > 0) {
         const discounted = evalFee * (1 - pct / 100);
         return formatUSD(discounted);
@@ -150,11 +168,19 @@ const columns: ColumnDef<PlanRow, any>[] = [
       return formatUSD(evalFee);
     },
     sortingFn: (rowA, rowB) => {
-      const aPrice = rowA.original.eval_fee * (1 - (rowA.original.active_discount_pct || 0) / 100);
-      const bPrice = rowB.original.eval_fee * (1 - (rowB.original.active_discount_pct || 0) / 100);
-      return aPrice - bPrice;
+      // For tiered discounts, use the conservative price (last tier)
+      const getPrice = (row: any) => {
+        const planRow = row.original as PlanRow;
+        if (planRow.discount_tiers && planRow.discount_tiers.length > 0) {
+          const lastTier = planRow.discount_tiers[planRow.discount_tiers.length - 1];
+          return lastTier.eval_price ?? planRow.eval_fee;
+        }
+        return planRow.eval_fee * (1 - (planRow.active_discount_pct || 0) / 100);
+      };
+      
+      return getPrice(rowA) - getPrice(rowB);
     },
-    size: 130,
+    size: 150,
   }),
 
   // 5. Total = Setup Fee + After Discount
