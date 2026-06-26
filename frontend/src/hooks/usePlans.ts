@@ -21,6 +21,13 @@ export interface PlanFilters {
   limit?: number;
 }
 
+export interface DiscountTier {
+  tier: number;
+  pct: number;
+  limit: number | null;
+  label: string;
+}
+
 export interface PlanRow {
   firm_id: string;
   firm_name: string;
@@ -61,6 +68,8 @@ export interface PlanRow {
   consistency_eval?: number | null;
   consistency_funded?: number | null;
   first_payout_days?: number | null;
+  // Tiered discount structure
+  discount_tiers?: DiscountTier[] | null;
 }
 
 

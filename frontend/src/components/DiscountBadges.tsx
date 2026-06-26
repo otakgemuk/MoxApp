@@ -2,18 +2,19 @@
  * DiscountBadge.tsx
  * 
  * React component that displays discount information with proper styling and patterns.
- * Handles single discounts, split discounts (eval + setup), and no-discount scenarios.
+ * Handles single discounts, split discounts (eval + setup), tiered discounts, and no-discount scenarios.
  * 
  * Usage in a table cell:
  *   <DiscountBadges plan={row.original} />
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   analyzeDiscountPattern,
   getDiscountBadgeClasses,
   type DiscountBadge as DiscountBadgeType,
 } from '../lib/discountUtils';
+import type { DiscountTier } from '../hooks/usePlans';
 
 interface DiscountBadgesProps {
   plan: {
@@ -23,10 +24,42 @@ interface DiscountBadgesProps {
     firm_name: string;
     account_type: string;
     total_cost_to_funded: number;
+    discount_tiers?: DiscountTier[] | null;
   };
   compact?: boolean; // If true, show only on hover
   showDescription?: boolean; // If true, add small helper text
 }
+
+/**
+ * Tiered discount display component
+ * Shows multiple discount tiers that apply sequentially
+ */
+const TieredDiscountBadge: React.FC<{ tiers: DiscountTier[] }> = ({ tiers }) => {
+  const [expanded, setExpanded] = useState(false);
+  const sortedTiers = [...tiers].sort((a, b) => a.tier - b.tier);
+
+  return (
+    <div className="flex flex-col gap-1">
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="inline-flex items-center gap-1 rounded-full bg-blue-500/20 text-blue-300 hover:bg-blue-500/30 transition px-2 py-1 text-xs font-medium cursor-pointer"
+      >
+        <span>📊 Tiered Discount</span>
+        <span className="text-[10px]">{expanded ? '−' : '+'}</span>
+      </button>
+      {expanded && (
+        <div className="rounded-lg bg-blue-500/10 border border-blue-500/30 p-2 space-y-1">
+          {sortedTiers.map((tier) => (
+            <div key={tier.tier} className="flex justify-between items-center text-xs">
+              <span className="text-blue-200">{tier.label}</span>
+              <span className="font-semibold text-blue-400">−{tier.pct}%</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 
 /**
  * Main component: DiscountBadges
@@ -37,6 +70,11 @@ export const DiscountBadges: React.FC<DiscountBadgesProps> = ({
   compact = false,
   showDescription = false,
 }) => {
+  // Check for tiered discount first
+  if (plan.discount_tiers && plan.discount_tiers.length > 0) {
+    return <TieredDiscountBadge tiers={plan.discount_tiers} />;
+  }
+
   const pattern = analyzeDiscountPattern(plan);
 
   // No discount case
