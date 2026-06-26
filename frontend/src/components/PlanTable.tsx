@@ -11,7 +11,7 @@ import {
   type SortingState,
   type ColumnDef,
 } from "@tanstack/react-table";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { PlanRow } from "../hooks/usePlans";
 import { formatUSD, DRAWDOWN_STYLES } from "../lib/utils";
 import { DiscountBadges } from "./DiscountBadges";
@@ -249,6 +249,15 @@ interface PlanTableProps {
 
 export default function PlanTable({ data, onSortingChange, serverSorting }: PlanTableProps) {
   const [sorting, setSorting] = useState<SortingState>(serverSorting ?? []);
+
+  // Sync serverSorting prop changes to local state
+  useEffect(() => {
+    if (serverSorting && serverSorting.length > 0) {
+      setSorting(serverSorting);
+    } else {
+      setSorting([]);
+    }
+  }, [serverSorting]);
 
   const table = useReactTable({
     data,
