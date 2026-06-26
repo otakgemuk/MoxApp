@@ -110,6 +110,11 @@ const columns: ColumnDef<PlanRow, any>[] = [
 
       return formatUSD(evalFee);
     },
+    sortingFn: (rowA, rowB) => {
+      const aFee = rowA.original.eval_fee * (1 - (rowA.original.active_discount_pct || 0) / 100);
+      const bFee = rowB.original.eval_fee * (1 - (rowB.original.active_discount_pct || 0) / 100);
+      return aFee - bFee;
+    },
     size: 100,
   }),
 
