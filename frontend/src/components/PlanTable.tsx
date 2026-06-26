@@ -131,6 +131,26 @@ const columns: ColumnDef<PlanRow, any>[] = [
     size: 160,
   }),
 
+  // 4.5. Price After Discount (eval fee with discount applied)
+  columnHelper.accessor("eval_fee", {
+    id: "price_after_discount",
+    header: "Price After Discount",
+    cell: (info) => {
+      const evalFee = info.getValue();
+      const pct = info.row.original.active_discount_pct;
+      if (pct > 0) {
+        const discounted = evalFee * (1 - pct / 100);
+        return (
+          <span className="text-green-400 font-medium">
+            {formatUSD(discounted)}
+          </span>
+        );
+      }
+      return <span className="text-gray-300">{formatUSD(evalFee)}</span>;
+    },
+    size: 130,
+  }),
+
   // 5. Total = Setup Fee + After Discount
   columnHelper.accessor("total_cost_to_funded", {
     header: "Total",
