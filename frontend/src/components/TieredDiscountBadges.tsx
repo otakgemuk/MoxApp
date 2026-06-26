@@ -14,21 +14,15 @@ interface DiscountTier {
 
 interface TieredDiscountBadgesProps {
   tiers: DiscountTier[];
-  currentDiscount: number;
 }
 
-export function TieredDiscountBadges({ tiers, currentDiscount }: TieredDiscountBadgesProps) {
+export function TieredDiscountBadges({ tiers }: TieredDiscountBadgesProps) {
   const [showDetails, setShowDetails] = useState(false);
 
   if (!tiers || tiers.length === 0) return null;
 
   // Sort by tier number
   const sortedTiers = [...tiers].sort((a, b) => a.tier - b.tier);
-
-  // Build summary text
-  const summary = sortedTiers
-    .map((t) => `${t.pct}% ${t.label}`)
-    .join(' → ');
 
   return (
     <div className="space-y-1">
