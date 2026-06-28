@@ -7227,7 +7227,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "plan_id": "earn2trade-50000-tcp50",
@@ -7251,7 +7252,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "plan_id": "earn2trade-50000-tcp100",
@@ -7275,7 +7277,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "plan_id": "earn2trade-50000-gau50",
@@ -7299,7 +7302,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "plan_id": "earn2trade-100000-gau100",
@@ -7323,7 +7327,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "plan_id": "earn2trade-150000-gau150",
@@ -7347,7 +7352,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "plan_id": "earn2trade-200000-gau200",
@@ -7371,7 +7377,8 @@
     "consistency_eval": 30,
     "consistency_funded": 30,
     "max_funded_status": "specified",
-    "affiliate_code": "MOT"
+    "affiliate_code": "themightyox",
+    "website_url": "https://www.earn2trade.com/non-us?a_pid=themightyox"
   },
   {
     "firm_id": "myfundedfutures",
