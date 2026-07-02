@@ -34,7 +34,7 @@ export function analyzeDiscountPattern(plan: {
   account_type: string;
   total_cost_to_funded: number;
 }): DiscountPattern {
-  const { active_discount_pct } = plan;
+  const { active_discount_pct, firm_name, account_type } = plan;
 
   // NO DISCOUNT
   if (active_discount_pct === 0) {
@@ -52,8 +52,27 @@ export function analyzeDiscountPattern(plan: {
     };
   }
 
-  // NexGen evals: flat 80% off the eval fee (activation excluded).
-  // Handled by the SIMPLE path below via active_discount_pct.
+  // NexGen evals: 80% off the eval fee; activation billed at full price.
+  if (
+    firm_name === 'NexGen ProTrader Funding' &&
+    account_type === 'Evaluation' &&
+    active_discount_pct === 80
+  ) {
+    return {
+      type: 'split',
+      evalDiscount: 80,
+      setupDiscount: 0,
+      description: 'Eval discounted 80%; activation at full price',
+      badges: [
+        {
+          label: `-80% eval`,
+          percentage: 80,
+          category: 'eval',
+          type: 'high',
+        },
+      ],
+    };
+  }
 
   // SIMPLE DISCOUNT (flat % applied to all fees)
   // Determine severity (high/moderate/low)
